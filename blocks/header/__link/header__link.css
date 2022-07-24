@@ -1,0 +1,28 @@
+@import url(./_active/header__link_active.css);
+
+.header__link {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #544D4D;
+  padding-bottom: 10px;
+}
+
+.header__link:hover {
+  border-bottom: 3px solid #CB4F12;
+}
+
+@media all and (max-width: 1023px) {
+	.header__link {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+
+@media all and (max-width: 819px) {
+	.header__link {
+    font-size: 12.3px;
+    line-height: 15.3px;
+  }
+}

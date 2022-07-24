@@ -1,0 +1,9 @@
+.grid-container_location_price {
+  margin: 30px 40px 30px;
+}
+
+@media all and (max-width: 1023px) {
+	.grid-container_location_price {
+    margin: 30px 20px 30px;
+  }
+}

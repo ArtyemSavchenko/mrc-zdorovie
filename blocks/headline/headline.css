@@ -1,0 +1,32 @@
+.headline {
+  background-color: #CB4F12;
+  padding: 37px 40px;
+  font-weight: 900;
+  font-size: 29.3px;
+  line-height: 36px;
+  color: #FFF9F9;
+  text-align: center;
+  margin: 0;
+}
+
+@media all and (max-width: 1023px) {
+	.headline {
+    padding: 37px 20px;
+  }
+}
+
+@media all and (max-width: 768px) {
+	.headline {
+    font-size: 25.3px;
+    line-height: 31px;
+    padding: 31px 20px;
+  }
+}
+
+@media all and (max-width: 580px) {
+	.headline {
+    font-size: 19.3px;
+    line-height: 24px;
+    padding: 22px 20px;
+  }
+}

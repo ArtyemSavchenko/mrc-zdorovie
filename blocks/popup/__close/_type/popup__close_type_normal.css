@@ -1,0 +1,9 @@
+.popup__close_type_normal {
+  right: -39px;
+}
+
+@media all and (max-width: 375px) {
+	.popup__close_type_normal {
+    right: -30px;
+  }
+}

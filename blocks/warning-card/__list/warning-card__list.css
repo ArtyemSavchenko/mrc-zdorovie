@@ -1,0 +1,19 @@
+.warning-card__list {
+  padding: 0 0 20px 19px;
+  margin: 0 0 20px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+@media all and (max-width: 818px) {
+	.warning-card__list {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media all and (max-width: 589px) {
+	.warning-card__list {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+}

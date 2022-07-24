@@ -1,0 +1,43 @@
+.footer__title {
+  font-weight: bold;
+  font-size: 29.3px;
+  line-height: 36px;
+  margin: 0;
+}
+
+@media all and (max-width: 1182px) {
+	.footer__title {
+    font-size: 23.3px;
+    line-height: 28px;
+    margin-top: 4px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+	.footer__title {
+    font-size: 19.3px;
+    line-height: 24px;
+    margin: 0;
+  }
+}
+
+@media all and (max-width: 830px) {
+	.footer__title {
+    font-size: 16.3px;
+    line-height: 20px;
+  }
+}
+
+@media all and (max-width: 767px) {
+	.footer__title {
+    font-size: 21.62px;
+    line-height: 26px;
+    margin-bottom: 40px;
+  }
+}
+
+@media all and (max-width: 363px) {
+	.footer__title {
+    margin-bottom: 30px;
+  }
+}

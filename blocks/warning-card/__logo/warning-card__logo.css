@@ -1,0 +1,110 @@
+.warning-card__logo {
+  width: 70px;
+  height: 237px;
+  margin-right: 20px;
+}
+
+@media all and (max-width: 1179px) {
+	.warning-card__logo {
+    width: 72px;
+    height: 257px;
+  }
+}
+
+@media all and (max-width: 1058px) {
+	.warning-card__logo {
+    height: 274px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+	.warning-card__logo {
+    height: 257px;
+  }
+}
+
+@media all and (max-width: 1018px) {
+	.warning-card__logo {
+    height: 274px;
+  }
+}
+
+@media all and (max-width: 818px) {
+	.warning-card__logo {
+    height: 287px;
+  }
+}
+
+@media all and (max-width: 803px) {
+	.warning-card__logo {
+    height: 274px;
+  }
+}
+
+@media all and (max-width: 589px) {
+	.warning-card__logo {
+    height: 251px;
+  }
+}
+
+@media all and (max-width: 565px) {
+	.warning-card__logo {
+    height: 258px;
+  }
+}
+
+@media all and (max-width: 524px) {
+	.warning-card__logo {
+    height: 276px;
+  }
+}
+
+@media all and (max-width: 507px) {
+	.warning-card__logo {
+    height: 295px;
+  }
+}
+
+@media all and (max-width: 451px) {
+	.warning-card__logo {
+    height: 315px;
+  }
+}
+
+@media all and (max-width: 430px) {
+	.warning-card__logo {
+    height: 332px;
+  }
+}
+
+@media all and (max-width: 424px) {
+	.warning-card__logo {
+    height: 285px;
+  }
+}
+
+@media all and (max-width: 410px) {
+	.warning-card__logo {
+    height: 300px;
+  }
+}
+
+@media all and (max-width: 375px) {
+	.warning-card__logo {
+    height: 338px;
+  }
+}
+
+@media all and (max-width: 374px) {
+	.warning-card__logo {
+    width: 60px;
+    height: 250px;
+  }
+}
+
+@media all and (max-width: 320px) {
+	.warning-card__logo {
+    height: 275px;
+    margin-right: 10px;
+  }
+}

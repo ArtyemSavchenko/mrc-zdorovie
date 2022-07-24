@@ -1,0 +1,19 @@
+@import url(./_order/complex__photo_order_second.css);
+@import url(./_order/complex__photo_order_fourth.css);
+@import url(./_order/complex__photo_order_sixth.css);
+
+.complex__photo {
+  width: 63.96%;
+}
+
+@media all and (max-width: 1439px) {
+	.complex__photo {
+    width: 50%;
+  }
+}
+
+@media all and (max-width: 767px) {
+	.complex__photo {
+    width: 100%;
+  }
+}

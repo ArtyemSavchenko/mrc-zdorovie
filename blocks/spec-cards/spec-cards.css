@@ -1,0 +1,36 @@
+@import url(./__item/spec-cards__item.css);
+@import url(./__image/spec-cards__image.css);
+@import url(./__title/spec-cards__title.css);
+@import url(./__subtitle/spec-cards__subtitle.css);
+@import url(./__description/spec-cards__description.css);
+
+.spec-cards {
+  align-self: center;
+  margin: 40px;
+  padding: 0;
+  list-style: none;
+  line-height: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 70px;
+}
+
+@media all and (max-width: 1023px) {
+	.spec-cards {
+    margin: 20px;
+    gap: 50px;
+  }
+}
+
+@media all and (max-width: 824px) {
+	.spec-cards {
+    gap: 30px;
+  }
+}
+
+@media all and (max-width: 726px) {
+	.spec-cards {
+    display: block;
+    margin: 40px 20px 0;
+  }
+}

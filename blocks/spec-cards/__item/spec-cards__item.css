@@ -1,0 +1,10 @@
+.spec-cards__item {
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (max-width: 726px) {
+	.spec-cards__item {
+    margin-bottom: 40px;
+  }
+}

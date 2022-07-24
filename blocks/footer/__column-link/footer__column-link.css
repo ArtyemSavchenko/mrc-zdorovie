@@ -1,0 +1,14 @@
+@import url(./_type/footer__column-link_type_social.css);
+
+.footer__column-link {
+  font-weight: normal;
+  color: #FFF9F9;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 15px;
+  transition: .2s linear;
+}
+
+.footer__column-link:hover {
+  opacity: .5;
+}

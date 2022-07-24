@@ -1,0 +1,5 @@
+@import url(./_content/footer__wrapper_content_logo.css);
+
+.footer__wrapper {
+  display: flex;
+}

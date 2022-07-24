@@ -1,0 +1,9 @@
+@import url(./_size/contacts_size_small.css);
+@import url(./_size/contacts_size_middle.css);
+@import url(./__logo/contacts__logo.css);
+@import url(./__text/contacts__text.css);
+@import url(./__link/contacts__link.css);
+
+.contacts {
+  display: flex;
+}

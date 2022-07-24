@@ -1,0 +1,20 @@
+.achievements__large-text {
+  display: block;
+  font-weight: normal;
+  font-size: 60.75px;
+  line-height: 75px;
+}
+
+@media all and (max-width: 1279px) {
+	.achievements__large-text {
+    font-size: 45.75px;
+    line-height: 60px;
+  }
+}
+
+@media all and (max-width: 580px) {
+	.achievements__large-text {
+    font-size: 35.75px;
+    line-height: 50px;
+  }
+}

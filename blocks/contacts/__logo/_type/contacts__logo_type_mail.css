@@ -1,0 +1,19 @@
+.contacts__logo_type_mail {
+  width: 20px;
+  height: 15px;
+  margin-top: 2px;
+}
+
+@media all and (max-width: 589px) {
+	.contacts__logo_type_mail {
+    width: 15px;
+    height: 10px;
+    margin-top: 3px;
+  }
+}
+
+@media all and (max-width: 424px) {
+	.contacts__logo_type_mail {
+    margin-top: 2px;
+  }
+}

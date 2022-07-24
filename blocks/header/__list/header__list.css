@@ -1,0 +1,12 @@
+.header__list {
+  display: flex;
+  margin: 43px 40px 43px 0;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+@media all and (max-width: 1023px) {
+	.header__list {
+    margin-right: 20px;
+  }
+}

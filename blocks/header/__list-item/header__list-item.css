@@ -1,0 +1,15 @@
+.header__list-item {
+  display: inline;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.header__list-item:last-of-type {
+  margin-right: 0;
+}
+
+@media all and (max-width: 1023px) {
+	.header__list-item {
+    margin-right: 15px;
+  }
+}

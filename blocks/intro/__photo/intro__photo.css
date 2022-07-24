@@ -1,0 +1,37 @@
+.intro__photo {
+  display: none;
+  max-width: 541px;
+  margin-top: -80px;
+  margin-bottom: -50px;
+}
+
+@media all and (max-width: 1264px) {
+	.intro__photo {
+    margin-right: -80px;
+  }
+}
+
+@media all and (max-width: 1180px) {
+	.intro__photo {
+    margin-right: -100px;
+  }
+}
+
+@media all and (max-width: 1164px) {
+	.intro__photo {
+    max-width: 337px;
+    margin: -61px 0 -43px;
+  }
+}
+
+@media all and (max-width: 812px) {
+	.intro__photo {
+    margin-right: -60px;
+  }
+}
+
+@media all and (max-width: 767px) {
+	.intro__photo {
+    display: none;
+  }
+}

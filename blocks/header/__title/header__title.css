@@ -1,0 +1,20 @@
+.header__title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 36.62px;
+  line-height: 45px;
+}
+
+@media all and (max-width: 767px) {
+	.header__title {
+    font-size: 29.62px;
+    line-height: 36px;
+  }
+}
+
+@media all and (max-width: 480px) {
+	.header__title {
+    font-size: 22.62px;
+    line-height: 28px;
+  }
+}

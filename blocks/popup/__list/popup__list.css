@@ -1,0 +1,11 @@
+.popup__list {
+  padding: 0;
+  padding-left: 22px;
+  list-style: disc;
+}
+
+@media all and (max-width: 589px) {
+	.popup__list {
+    padding-left: 19px;
+  }
+}

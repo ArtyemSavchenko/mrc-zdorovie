@@ -1,0 +1,6 @@
+@import url(./_active/mobile-menu__link_active.css);
+
+.mobile-menu__link {
+  color: #544D4D;
+  text-decoration: none;
+}

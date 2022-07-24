@@ -1,0 +1,22 @@
+@import url(./_position/popup__text_position_top.css);
+@import url(./_position/popup__text_position_bottom.css);
+@import url(./_position/popup__text_position_center.css);
+
+.popup__text {
+  font-size: 18.75px;
+  line-height: 23px;
+}
+
+@media all and (max-width: 589px) {
+	.popup__text {
+    font-size: 14.75px;
+    line-height: 18px;
+  }
+}
+
+@media all and (max-width: 375px) {
+	.popup__text {
+    font-size: 12.75px;
+    line-height: 16px;
+  }
+}

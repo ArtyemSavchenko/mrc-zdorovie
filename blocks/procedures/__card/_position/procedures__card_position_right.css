@@ -1,0 +1,9 @@
+.procedures__card_position_right {
+  grid-column: 3/5;
+}
+
+@media all and (max-width: 833px) {
+	.procedures__card_position_right {
+    grid-column: auto;
+  }
+}

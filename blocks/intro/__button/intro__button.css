@@ -1,0 +1,53 @@
+.intro__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 295px;
+  height: 75px;
+  font-weight: bold;
+  font-size: 21.44px;
+  line-height: 26px;
+  color: #FFF9F9;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #CB4F12;
+  padding: 0;
+  margin: 70px auto 0;
+  -webkit-tap-highlight-color: transparent;
+  transition: .2s linear;
+}
+
+.intro__button:hover {
+  background-color: #544D4D;
+}
+
+@media all and (max-width: 1164px) {
+	.intro__button {
+    width: 229px;
+    height: 59px;
+    font-size: 18.44px;
+    line-height: 25px;
+    margin-top: 45px;
+  }
+}
+
+@media all and (max-width: 480px) {
+	.intro__button {
+    width: 217px;
+    height: 49px;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 27px;
+    border-radius: 5px;
+  }
+}
+
+@media all and (max-width: 381px) {
+	.intro__button {
+    width: 191px;
+    height: 41px;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 20px;
+  }
+}

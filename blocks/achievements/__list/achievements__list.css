@@ -1,0 +1,25 @@
+.achievements__list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  list-style: none;
+  margin: 0 auto;
+  padding: 40px;
+  max-width: 1200px;
+}
+
+@media all and (max-width: 1023px) {
+	.achievements__list {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    row-gap: 20px;
+    max-width: 600px;
+  }
+}
+
+@media all and (max-width: 479px) {
+	.achievements__list {
+    grid-template-columns: 1fr;
+    row-gap: 0;
+  }
+}

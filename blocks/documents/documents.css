@@ -1,0 +1,26 @@
+@import url(./__photo/documents__photo.css);
+
+.documents {
+  max-width: 1196px;
+  align-self: center;
+  margin: 40px;
+  padding: 0;
+  list-style: none;
+  line-height: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+@media all and (max-width: 1023px) {
+	.documents {
+    margin: 20px;
+    gap: 10px;
+  }
+}
+
+@media all and (max-width: 767px) {
+	.documents {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

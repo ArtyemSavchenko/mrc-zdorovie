@@ -1,0 +1,12 @@
+.header__container {
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid #544D4D;
+  align-items: center;
+}
+
+@media all and (max-width: 767px) {
+	.header__container {
+    border-bottom: none;
+  }
+}

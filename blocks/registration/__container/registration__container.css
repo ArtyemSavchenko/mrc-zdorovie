@@ -1,0 +1,14 @@
+.registration__container {
+  max-width: 925px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.registration__container::before, .registration__container::after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #C4C4C4;
+}

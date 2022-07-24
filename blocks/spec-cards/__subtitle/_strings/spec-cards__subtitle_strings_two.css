@@ -1,0 +1,9 @@
+.spec-cards__subtitle_strings_two {
+  margin: 0 0 20px;
+}
+
+@media all and (max-width: 1023px) {
+	.spec-cards__subtitle_strings_two {
+    margin-bottom: 10px;
+  }
+}

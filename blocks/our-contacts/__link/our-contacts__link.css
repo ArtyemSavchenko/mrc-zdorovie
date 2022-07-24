@@ -1,0 +1,14 @@
+@import url('./_type/our-contacts__link_type_contacts.css');
+
+.our-contacts__link {
+  display: flex;
+  color: #544D4D;
+  text-decoration: none;
+  align-items: center;
+  transition: .2s linear;
+}
+
+.our-contacts__link:hover {
+  cursor: pointer;
+  opacity: .5;
+}

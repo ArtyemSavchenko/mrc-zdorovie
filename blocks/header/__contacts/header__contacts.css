@@ -1,0 +1,18 @@
+.header__contacts {
+  margin: 0 40px 0 auto;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+@media all and (max-width: 1023px) {
+	.header__contacts {
+    margin-right: 20px;
+  }
+}
+
+@media all and (max-width: 767px) {
+	.header__contacts {
+    display: none;
+  }
+}

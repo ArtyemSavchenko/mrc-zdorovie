@@ -1,0 +1,9 @@
+.photo-cards_location_new-center {
+  margin: 0 40px;
+}
+
+@media all and (max-width: 1023px) {
+	.photo-cards_location_new-center {
+    margin: 0 20px;
+  }
+}

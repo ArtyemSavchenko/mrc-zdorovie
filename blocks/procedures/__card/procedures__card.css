@@ -1,0 +1,8 @@
+@import url(./_position/procedures__card_position_left.css);
+@import url(./_position/procedures__card_position_right.css);
+@import url(./_location/procedures__card_location_gallery.css);
+
+.procedures__card {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}

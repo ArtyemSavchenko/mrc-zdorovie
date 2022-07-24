@@ -1,0 +1,13 @@
+.contacts__logo_type_phone {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+}
+
+@media all and (max-width: 589px) {
+	.contacts__logo_type_phone {
+    width: 15px;
+    height: 15px;
+    margin-top: 0;
+  }
+}

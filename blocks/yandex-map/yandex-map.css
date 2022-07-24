@@ -1,0 +1,12 @@
+.yandex-map {
+  width: 100%;
+  height: 624px;
+  border: none;
+  margin-bottom: -4px;
+}
+
+@media all and (max-width: 1440px) {
+	.yandex-map {
+    height: calc(624 / 1440 * 100vw);
+  }
+}

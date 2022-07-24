@@ -1,0 +1,27 @@
+.spec-cards__subtitle_strings_one {
+  margin: 0 0 42px;
+}
+
+@media all and (max-width: 1314px) {
+	.spec-cards__subtitle_strings_one {
+    margin: 0 0 37px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+	.spec-cards__subtitle_strings_one {
+    margin-bottom: 24px;
+  }
+}
+
+@media all and (max-width: 824px) {
+	.spec-cards__subtitle_strings_one {
+    margin-bottom: 22px;
+  }
+}
+
+@media all and (max-width: 726px) {
+	.spec-cards__subtitle_strings_one {
+    margin-bottom: 10px;
+  }
+}

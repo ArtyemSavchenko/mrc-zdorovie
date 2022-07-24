@@ -1,0 +1,35 @@
+.our-contacts__text {
+  margin: 0;
+  font-weight: 600;
+  font-size: 23.44px;
+  line-height: 29px;
+  text-align: center;
+}
+
+@media all and (max-width: 829px) {
+	.our-contacts__text {
+    font-size: 21.44px;
+    line-height: 26px;
+  }
+}
+
+@media all and (max-width: 767px) {
+	.our-contacts__text {
+    font-size: 17.44px;
+    line-height: 21px;
+  }
+}
+
+@media all and (max-width: 479px) {
+	.our-contacts__text {
+    font-size: 14.44px;
+    line-height: 18px;
+  }
+}
+
+@media all and (max-width: 374px) {
+	.our-contacts__text {
+    font-size: 12.44px;
+    line-height: 15px;
+  }
+}

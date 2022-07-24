@@ -1,0 +1,27 @@
+.form__submit {
+  width: 125px;
+  height: 35px;
+  border: none;
+  background-color: #CB4F12;
+  color: #FFF9F9;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 0;
+  margin-left: auto;
+  -webkit-tap-highlight-color: transparent;
+  transition: .2s linear;
+}
+
+.form__submit:hover {
+  cursor: pointer;
+  background-color: #544D4D;
+}
+
+@media all and (max-width: 589px) {
+	.form__submit {
+    width: 100px;
+    height: 30px;
+  }
+}

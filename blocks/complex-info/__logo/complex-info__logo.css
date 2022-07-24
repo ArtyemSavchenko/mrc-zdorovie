@@ -1,0 +1,18 @@
+.complex-info__logo {
+  max-width: 150px;
+  margin-bottom: 30px;
+}
+
+@media all and (max-width: 1439px) {
+	.complex-info__logo {
+    max-width: 75px;
+    margin-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+	.complex-info__logo {
+    max-width: 70px;
+    margin-bottom: 10px;
+  }
+}

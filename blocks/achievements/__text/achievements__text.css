@@ -1,0 +1,6 @@
+@import url(./_type/achievements__text_type_large-digits.css);
+@import url(./_type/achievements__text_type_middle-digits.css);
+
+.achievements__text {
+  text-align: center;
+}

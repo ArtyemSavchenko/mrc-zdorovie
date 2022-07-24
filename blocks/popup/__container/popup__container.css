@@ -1,0 +1,11 @@
+@import url(./_type/popup__container_type_normal.css);
+@import url(./_type/popup__container_type_overflowed.css);
+
+.popup__container {
+  max-width: 940px;
+  max-height: 80vh;
+  background-color: #FFF9F9;
+  border-radius: 5px;
+  margin: 0 50px;
+  padding: 20px;
+}

@@ -1,0 +1,7 @@
+.mobile-menu__list-item {
+  margin-bottom: 15px;
+}
+
+.mobile-menu__list-item:last-of-type {
+  margin-bottom: 0;
+}

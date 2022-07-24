@@ -1,0 +1,23 @@
+.contacts_size_small {
+  max-width: 435px;
+  margin: 0 auto 15px;
+}
+
+@media all and (max-width: 589px) {
+	.contacts_size_small {
+    max-width: 349px;
+  }
+}
+
+@media all and (max-width: 424px) {
+	.contacts_size_small {
+    max-width: 322px;
+  }
+}
+
+@media all and (max-width: 374px) {
+	.contacts_size_small {
+    max-width: 268px;
+    margin-bottom: 10px;
+  }
+}

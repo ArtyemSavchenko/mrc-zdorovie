@@ -1,0 +1,27 @@
+.spec-cards__image {
+  max-width: 250px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  align-self: center;
+}
+
+@media all and (max-width: 1314px) {
+	.spec-cards__image {
+    max-width: 200px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+	.spec-cards__image {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 726px) {
+	.spec-cards__image {
+    max-width: 169px;
+    margin-bottom: 10px;
+  }
+}
+

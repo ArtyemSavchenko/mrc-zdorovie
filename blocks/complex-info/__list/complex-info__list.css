@@ -1,0 +1,22 @@
+.complex-info__list {
+  padding-left: 22px;
+  margin: 0;
+}
+
+@media all and (max-width: 1439px) {
+	.complex-info__list {
+    padding-left: 20px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+	.complex-info__list {
+    padding-left: 17px;
+  }
+}
+
+@media all and (max-width: 374px) {
+	.complex-info__list {
+    padding-left: 16px;
+  }
+}

@@ -1,0 +1,5 @@
+@media all and (max-width: 599px) {
+  .procedures__card_location_gallery {
+    display: none;
+  }
+}

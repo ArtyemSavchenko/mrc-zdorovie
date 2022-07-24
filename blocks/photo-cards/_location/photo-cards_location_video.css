@@ -1,0 +1,9 @@
+.photo-cards_location_video {
+  margin: 20px 40px;
+}
+
+@media all and (max-width: 1023px) {
+	.photo-cards_location_video {
+    margin: 20px;
+  }
+}

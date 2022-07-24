@@ -1,0 +1,30 @@
+.complex-info__title {
+  font-weight: bold;
+  font-size: 23.44px;
+  line-height: 27px;
+  margin: 0 0 10px;
+}
+
+@media all and (max-width: 1439px) {
+	.complex-info__title {
+    font-size: 21.44px;
+    line-height: 25px;
+    margin-bottom: 8px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+	.complex-info__title {
+    font-size: 17.44px;
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+@media all and (max-width: 374px) {
+	.complex-info__title {
+    font-size: 16.44px;
+    line-height: 19px;
+    margin-bottom: 3px;
+  }
+}

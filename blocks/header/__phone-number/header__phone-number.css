@@ -1,0 +1,10 @@
+.header__phone-number {
+  color: #CB4F12;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .2s linear;
+}
+
+.header__phone-number:hover {
+  opacity: .5;
+}

@@ -1,0 +1,37 @@
+@import url(./_strings/spec-cards__subtitle_strings_one.css);
+@import url(./_strings/spec-cards__subtitle_strings_two.css);
+
+.spec-cards__subtitle {
+  text-align: center;
+  font-weight: 300;
+  font-size: 18.75px;
+  line-height: 22px;
+}
+
+@media all and (max-width: 1314px) {
+	.spec-cards__subtitle {
+    font-size: 13.75px;
+    line-height: 16px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+	.spec-cards__subtitle {
+    font-size: 11.75px;
+    line-height: 14px;
+  }
+}
+
+@media all and (max-width: 824px) {
+	.spec-cards__subtitle {
+    font-size: 10.75px;
+    line-height: 12px;
+  }
+}
+
+@media all and (max-width: 726px) {
+	.spec-cards__subtitle {
+    font-size: 13.75px;
+    line-height: 16px;
+  }
+}

@@ -1,0 +1,7 @@
+.contacts__link_type_details {
+  text-decoration: underline;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}

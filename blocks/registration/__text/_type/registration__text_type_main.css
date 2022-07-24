@@ -1,0 +1,10 @@
+.registration__text_type_main {
+  margin: 20px;
+  text-align: center;
+}
+
+@media all and (max-width: 589px) {
+	.registration__text_type_main {
+    margin: 10px 20px;
+  }
+}

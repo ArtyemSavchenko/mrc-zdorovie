@@ -1,0 +1,12 @@
+@import url(./__fieldset/form__fieldset.css);
+@import url(./__input/form__input.css);
+@import url(./__textarea/form__textarea.css);
+@import url(./__submit/form__submit.css);
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

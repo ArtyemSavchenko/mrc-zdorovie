@@ -1,0 +1,14 @@
+@import url(./_content/footer__column_content_contraindications.css);
+@import url(./_content/footer__column_content_info.css);
+@import url(./_content/footer__column_content_social.css);
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (max-width: 767px) {
+	.footer__column {
+    padding: 20px 0;
+  }
+}

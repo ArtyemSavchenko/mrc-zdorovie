@@ -1,0 +1,22 @@
+@import url(./_position/achievements__midlle-text_position_second-string.css);
+
+.achievements__midlle-text {
+  display: block;
+  font-weight: normal;
+  font-size: 32.75px;
+  line-height: 41px;
+}
+
+@media all and (max-width: 1279px) {
+	.achievements__midlle-text {
+    font-size: 27.75px;
+    line-height: 36px;
+  }
+}
+
+@media all and (max-width: 580px) {
+	.achievements__midlle-text {
+    font-size: 22.75px;
+    line-height: 31px;
+  }
+}

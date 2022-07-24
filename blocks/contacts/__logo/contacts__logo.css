@@ -1,0 +1,7 @@
+@import url(./_type/contacts__logo_type_phone.css);
+@import url(./_type/contacts__logo_type_mail.css);
+@import url(./_type/contacts__logo_type_papers.css);
+
+.contacts__logo {
+  margin-right: 8px;
+}

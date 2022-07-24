@@ -1,0 +1,46 @@
+@import url(./__container/intro__container.css);
+@import url(./__wrapper/intro__wrapper.css);
+@import url(./__title/intro__title.css);
+@import url(./__large-title/intro__large-title.css);
+@import url(./__middle-title/intro__middle-title.css);
+@import url(./__small-title/intro__small-title.css);
+@import url(./__button/intro__button.css);
+@import url(./__photo/intro__photo.css);
+
+.intro {
+  position: relative;
+  height: 589px;
+  box-sizing: border-box;
+  background-image: url(../../images/intro.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 60px 0 40px;
+}
+
+@media all and (max-width: 1164px) {
+	.intro {
+    height: 366px;
+    padding: 50px 0 30px;
+  }
+}
+
+@media all and (max-width: 767px) {
+	.intro {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    height: auto;
+  }
+}
+
+@media all and (max-width: 480px) {
+	.intro {
+    height: 280px;
+  }
+}
+
+@media all and (max-width: 381px) {
+	.intro {
+    height: 240px;
+  }
+}

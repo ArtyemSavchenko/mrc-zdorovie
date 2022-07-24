@@ -1,0 +1,9 @@
+.popup__text_position_top {
+  margin: 0 0 10px;
+}
+
+@media all and (max-width: 589px) {
+	.popup__text_position_top {
+    margin-bottom: 5px;
+  }
+}

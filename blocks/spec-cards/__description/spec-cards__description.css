@@ -1,0 +1,36 @@
+.spec-cards__description {
+  text-align: center;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 0;
+}
+
+@media all and (max-width: 1314px) {
+	.spec-cards__description {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+	.spec-cards__description {
+    font-size: 8px;
+    line-height: 9px;
+  }
+}
+
+@media all and (max-width: 824px) {
+	.spec-cards__description {
+    font-size: 7px;
+    line-height: 8px;
+  }
+}
+
+@media all and (max-width: 726px) {
+	.spec-cards__description {
+    max-width: 268px;
+    font-size: 10px;
+    line-height: 12px;
+    align-self: center;
+  }
+}

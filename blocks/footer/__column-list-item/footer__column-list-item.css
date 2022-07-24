@@ -1,0 +1,7 @@
+@import url(./_font-weight/footer__column-list-item_font-weight_normal.css);
+@import url(./_font-weight/footer__column-list-item_font-weight_bold.css);
+
+.footer__column-list-item {
+  font-size: 12px;
+  line-height: 15px;
+}

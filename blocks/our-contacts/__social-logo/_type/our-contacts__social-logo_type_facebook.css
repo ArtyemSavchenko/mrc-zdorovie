@@ -1,0 +1,15 @@
+.our-contacts__social-logo_type_facebook {
+  margin-right: 11px;
+}
+
+@media all and (max-width: 767px) {
+	.our-contacts__social-logo_type_facebook {
+    margin-right: 8px;
+  }
+}
+
+@media all and (max-width: 374px) {
+	.our-contacts__social-logo_type_facebook {
+    margin-right: 1px;
+  }
+}

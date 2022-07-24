@@ -1,0 +1,29 @@
+.new-center__paragraph_font-weight_normal {
+  margin: 20px 40px;
+  padding: 10px 20px;
+}
+
+@media all and (max-width: 1024px) {
+	.new-center__paragraph_font-weight_normal {
+    padding: 10px 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+	.new-center__paragraph_font-weight_normal {
+    margin: 20px 20px 15px;
+  }
+}
+
+@media all and (max-width: 768px) {
+	.new-center__paragraph_font-weight_normal {
+    margin-bottom: 10px;
+  }
+}
+
+@media all and (max-width: 375px) {
+	.new-center__paragraph_font-weight_normal {
+    padding: 10px;
+  }
+}

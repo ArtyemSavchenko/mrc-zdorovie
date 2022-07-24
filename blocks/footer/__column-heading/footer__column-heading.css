@@ -1,0 +1,18 @@
+.footer__column-heading {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0 0 15px;
+}
+
+@media all and (max-width: 800px) {
+	.footer__column-heading {
+    margin-bottom: 10px;
+  }
+}
+
+@media all and (max-width: 767px) {
+	.footer__column-heading {
+    margin-bottom: 12px;
+  }
+}

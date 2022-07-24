@@ -1,0 +1,23 @@
+@import url(./_type/registration__text_type_main.css);
+@import url(./_type/registration__text_type_or.css);
+@import url(./_type/registration__text_type_warning.css);
+
+.registration__text {
+  font-weight: 600;
+  font-size: 18.75px;
+  line-height: 23px;;
+}
+
+@media all and (max-width: 589px) {
+	.registration__text {
+    font-size: 14.75px;
+    line-height: 18px;
+  }
+}
+
+@media all and (max-width: 375px) {
+	.registration__text {
+    font-size: 12.75px;
+    line-height: 16px;
+  }
+}
