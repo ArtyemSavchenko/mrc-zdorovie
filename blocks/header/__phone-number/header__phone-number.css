@@ -1,5 +1,5 @@
 .header__phone-number {
-  color: #CB4F12;
+  color: var(--accent-color);
   font-weight: bold;
   text-decoration: none;
   transition: .2s linear;

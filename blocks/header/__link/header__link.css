@@ -10,7 +10,7 @@
 }
 
 .header__link:hover {
-  border-bottom: 3px solid #CB4F12;
+  border-bottom: 3px solid var(--accent-color);
 }
 
 @media all and (max-width: 1023px) {

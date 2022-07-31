@@ -10,7 +10,7 @@
   color: #FFF9F9;
   text-decoration: none;
   border-radius: 10px;
-  background-color: #CB4F12;
+  background-color: var(--accent-color);
   padding: 0;
   margin: 70px auto 0;
   -webkit-tap-highlight-color: transparent;

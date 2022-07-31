@@ -12,6 +12,6 @@
 @import url(./__social-icon/footer__social-icon.css);
 
 .footer {
-  background-color: #cb4f12;
+  background-color: var(--accent-color);
 }
 

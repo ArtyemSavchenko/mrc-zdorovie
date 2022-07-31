@@ -2,7 +2,7 @@
   width: 125px;
   height: 35px;
   border: none;
-  background-color: #CB4F12;
+  background-color: var(--accent-color);
   color: #FFF9F9;
   border-radius: 5px;
   font-weight: bold;
