@@ -1,3 +1,4 @@
+@import url(./__content-box/footer__content-box.css);
 @import url(./__column/footer__column.css);
 @import url(./__wrapper/footer__wrapper.css);
 @import url(./__logo/footer__logo.css);
@@ -11,21 +12,6 @@
 @import url(./__social-icon/footer__social-icon.css);
 
 .footer {
-  display: flex;
-  color: #FFF9F9;
-  padding: 20px 40px;
-  background-color: #CB4F12;
+  background-color: #cb4f12;
 }
 
-@media all and (max-width: 1023px) {
-	.footer {
-    padding: 20px 20px;
-  }
-}
-
-@media all and (max-width: 767px) {
-	.footer {
-    flex-direction: column;
-    padding: 0 20px;
-  }
-}

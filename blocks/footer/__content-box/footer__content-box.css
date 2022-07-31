@@ -1,0 +1,19 @@
+.footer__content-box {
+  display: flex;
+  color: #FFF9F9;
+  padding: 20px 40px 20px;
+  box-sizing: border-box;
+}
+
+@media all and (max-width: 1023px) {
+  .footer__content-box {
+    padding: 20px 20px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .footer__content-box {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+}
