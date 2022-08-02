@@ -1,9 +1,0 @@
-@import url(./_type/footer__column-list_type_contacts.css);
-@import url(./_type/footer__column-list_type_work-days.css);
-@import url(./_type/footer__column-list_type_work-hours.css);
-@import url(./_type/footer__column-list_type_social.css);
-
-.footer__column-list {
-  padding: 0;
-  list-style: none;
-}

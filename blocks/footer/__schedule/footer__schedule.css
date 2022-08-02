@@ -1,0 +1,6 @@
+.footer__schedule {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-auto-rows: min-content;
+  gap: 10px;
+}

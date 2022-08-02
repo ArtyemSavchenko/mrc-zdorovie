@@ -1,20 +1,8 @@
 .footer__text {
-  max-width: 438px;
-  font-size: 12px;
-  line-height: 15px;
-  margin: 0;
-}
-
-@media all and (max-width: 1023px) {
-	.footer__text {
-    font-size: 9px;
-    line-height: 11px;
-  }
-}
-
-@media all and (max-width: 767px) {
-	.footer__text {
-    max-width: 329px;
-    text-align: center;
-  }
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.25;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
 }

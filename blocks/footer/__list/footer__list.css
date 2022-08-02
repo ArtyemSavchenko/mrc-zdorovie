@@ -1,0 +1,10 @@
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-auto-rows: min-content;
+  row-gap: 10px;
+  justify-items: start;
+  /* max-width: 360px; */
+}

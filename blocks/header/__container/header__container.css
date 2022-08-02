@@ -1,8 +1,10 @@
 .header__container {
   position: relative;
   display: flex;
+  justify-content: space-between;
   border-bottom: 1px solid #544D4D;
   align-items: center;
+  padding: 20px 40px;
 }
 
 @media all and (max-width: 767px) {
