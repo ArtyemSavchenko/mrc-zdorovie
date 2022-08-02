@@ -1,0 +1,22 @@
+.logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.25;
+  transition: font-size .2s;
+}
+
+@media all and (max-width: 767px) {
+	.logo {
+    font-size: 30px;
+  }
+}
+
+@media all and (max-width: 480px) {
+	.logo {
+    font-size: 22px;
+  }
+}
