@@ -1,0 +1,17 @@
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/specialists/specialists.css);
+
+@import url(../blocks/spec-cards/spec-cards.css);
+@import url(../blocks/spec-cards/__description/spec-cards__description.css);
+@import url(../blocks/spec-cards/__image/spec-cards__image.css);
+@import url(../blocks/spec-cards/__item/spec-cards__item.css);
+@import url(../blocks/spec-cards/__title/spec-cards__title.css);
+@import url(../blocks/spec-cards/__subtitle/spec-cards__subtitle.css);
+@import url(../blocks/spec-cards/__subtitle/_strings/spec-cards__subtitle_strings_one.css);
+@import url(../blocks/spec-cards/__subtitle/_strings/spec-cards__subtitle_strings_two.css);
+
+@import url(../blocks/documents/documents.css);
+@import url(../blocks/documents/__photo/documents__photo.css);
+
+@import url(../blocks/flex-column-container/flex-column-container.css);

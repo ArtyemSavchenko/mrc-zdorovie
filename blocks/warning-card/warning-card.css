@@ -1,6 +1,3 @@
-@import url(./__logo/warning-card__logo.css);
-@import url(./__list/warning-card__list.css);
-
 .warning-card {
   display: flex;
   background-color: #FFF9F9;

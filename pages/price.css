@@ -1,0 +1,6 @@
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/grid-container/grid-container.css);
+@import url(../blocks/grid-container/__item/grid-container__item.css);
+@import url(../blocks/grid-container/_location/grid-container_location_price.css);
+

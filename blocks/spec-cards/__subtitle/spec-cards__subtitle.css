@@ -1,6 +1,3 @@
-@import url(./_strings/spec-cards__subtitle_strings_one.css);
-@import url(./_strings/spec-cards__subtitle_strings_two.css);
-
 .spec-cards__subtitle {
   text-align: center;
   font-weight: 300;

@@ -1,43 +1,43 @@
-/* main */
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/root/root.css);
-@import url(../blocks/page/page.css);
-@import url(../blocks/wrapper/wrapper.css);
 
-@import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_place/_header/logo_place_header.css);
-@import url(../blocks/logo/_place/_footer/logo_place_footer.css);
-@import url(../blocks/logo/__img/logo__img.css);
-@import url(../blocks/logo/__text/logo__text.css);
-
-@import url(../blocks/header/header.css);
-@import url(../blocks/mobile-menu/mobile-menu.css);
 @import url(../blocks/intro/intro.css);
-@import url(../blocks/complex/complex.css);
-@import url(../blocks/headline/headline.css);
-@import url(../blocks/complex-info/complex-info.css);
-@import url(../blocks/achievements/achievements.css);
-@import url(../blocks/health-center/health-center.css);
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/flex-column-container/flex-column-container.css);
+@import url(../blocks/intro/__button/intro__button.css);
+@import url(../blocks/intro/__container/intro__container.css);
+@import url(../blocks/intro/__large-title/intro__large-title.css);
+@import url(../blocks/intro/__middle-title/intro__middle-title.css);
+@import url(../blocks/intro/__small-title/intro__small-title.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__wrapper/intro__wrapper.css);
 
-/* procedures */
-@import url(../blocks/procedures/procedures.css);
-@import url(../blocks/popup/popup.css);
-/* specialists */
-@import url(../blocks/specialists/specialists.css);
-@import url(../blocks/spec-cards/spec-cards.css);
-@import url(../blocks/documents/documents.css);
-/* registration */
-@import url(../blocks/registration/registration.css);
-@import url(../blocks/form/form.css);
-@import url(../blocks/contacts/contacts.css);
-@import url(../blocks/warning-card/warning-card.css);
-@import url(../blocks/grid-container/grid-container.css);
-/* contacts */
-@import url(../blocks/our-contacts/our-contacts.css);
-@import url(../blocks/yandex-map/yandex-map.css);
-/* new-center */
-@import url(../blocks/new-center/new-center.css);
-@import url(../blocks/photo-cards/photo-cards.css);
+@import url(../blocks/complex/complex.css);
+@import url(../blocks/complex/__container/complex__container.css);
+@import url(../blocks/complex/__photo/complex__photo.css);
+@import url(../blocks/complex/__photo/_order/complex__photo_order_fourth.css);
+@import url(../blocks/complex/__photo/_order/complex__photo_order_second.css);
+@import url(../blocks/complex/__photo/_order/complex__photo_order_sixth.css);
+
+@import url(../blocks/complex-info/complex-info.css);
+@import url(../blocks/complex-info/__list-item/complex-info__list-item.css);
+@import url(../blocks/complex-info/__list/complex-info__list.css);
+@import url(../blocks/complex-info/__logo/complex-info__logo.css);
+@import url(../blocks/complex-info/__title/complex-info__title.css);
+
+@import url(../blocks/achievements/achievements.css);
+@import url(../blocks/achievements/__large-text/achievements__large-text.css);
+@import url(../blocks/achievements/__list-item/achievements__list-item.css);
+@import url(../blocks/achievements/__list-item/_position/achievements__list-item_position_center.css);
+@import url(../blocks/achievements/__list-item/_position/achievements__list-item_position_left-center.css);
+@import url(../blocks/achievements/__list-item/_position/achievements__list-item_position_left.css);
+@import url(../blocks/achievements/__list-item/_position/achievements__list-item_position_right-center.css);
+@import url(../blocks/achievements/__list-item/_position/achievements__list-item_position_right.css);
+@import url(../blocks/achievements/__list-item/_type/achievements__list-item_type_bubble.css);
+@import url(../blocks/achievements/__list/achievements__list.css);
+@import url(../blocks/achievements/__middle-text/achievements__midlle-text.css);
+@import url(../blocks/achievements/__middle-text/_position/achievements__midlle-text_position_second-string.css);
+@import url(../blocks/achievements/__small-text/achievements__small-text.css);
+@import url(../blocks/achievements/__text/achievements__text.css);
+@import url(../blocks/achievements/__text/_type/achievements__text_type_large-digits.css);
+@import url(../blocks/achievements/__text/_type/achievements__text_type_middle-digits.css);
+
+@import url(../blocks/health-center/health-center.css);
+@import url(../blocks/health-center/__photo/health-center__photo.css);

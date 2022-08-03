@@ -1,7 +1,3 @@
-@import url(./__item/grid-container__item.css);
-@import url(./_location/grid-container_location_price.css);
-@import url(./_location/grid-container_location_registration.css);
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

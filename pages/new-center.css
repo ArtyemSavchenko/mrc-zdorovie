@@ -1,0 +1,13 @@
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/new-center/new-center.css);
+@import url(../blocks/new-center/__container/new-center__container.css);
+@import url(../blocks/new-center/__paragraph/new-center__paragraph.css);
+@import url(../blocks/new-center/__paragraph/_font-weight/new-center__paragraph_font-weight_bold.css);
+@import url(../blocks/new-center/__paragraph/_font-weight/new-center__paragraph_font-weight_normal.css);
+@import url(../blocks/new-center/__photo/new-center__photo.css);
+@import url(../blocks/new-center/__text/new-center__text.css);
+
+@import url(../blocks/photo-cards/photo-cards.css);
+@import url(../blocks/photo-cards/__photo/photo-cards__photo.css);
+@import url(../blocks/photo-cards/__video/photo-cards__video.css);

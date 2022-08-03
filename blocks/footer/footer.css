@@ -1,16 +1,3 @@
-@import url(./__content-box/footer__content-box.css);
-@import url(./__schedule/footer__schedule.css);
-@import url(./__heading/footer__heading.css);
-@import url(./__text/footer__text.css);
-@import url(./__text/_bold/footer__text_bold.css);
-@import url(./__text/_type/footer__text_type_address.css);
-@import url(./__link/footer__link.css);
-@import url(./__link/_type/footer__link_type_tel.css);
-@import url(./__link/_type/footer__link_type_email.css);
-@import url(./__link/_type/footer__link_type_telegram.css);
-@import url(./__link/_type/footer__link_type_vk.css);
-@import url(./__list/footer__list.css);
-
 .footer {
   background-color: var(--accent-color);
   padding: 20px 0;

@@ -1,8 +1,3 @@
-@import url(./__photo/photo-cards__photo.css);
-@import url(./__video/photo-cards__video.css);
-@import url(./_location/photo-cards_location_video.css);
-@import url(./_location/photo-cards_location_new-center.css);
-
 .photo-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

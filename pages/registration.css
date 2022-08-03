@@ -1,0 +1,37 @@
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/registration/registration.css);
+@import url(../blocks/registration/__container/registration__container.css);
+@import url(../blocks/registration/__text/registration__text.css);
+@import url(../blocks/registration/__text/_type/registration__text_type_main.css);
+@import url(../blocks/registration/__text/_type/registration__text_type_or.css);
+@import url(../blocks/registration/__text/_type/registration__text_type_warning.css);
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__fieldset/form__fieldset.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__submit/form__submit.css);
+@import url(../blocks/form/__textarea/form__textarea.css);
+
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__link/contacts__link.css);
+@import url(../blocks/contacts/__link/_type/contacts__link_type_contact.css);
+@import url(../blocks/contacts/__link/_type/contacts__link_type_details.css);
+@import url(../blocks/contacts/__logo/contacts__logo.css);
+@import url(../blocks/contacts/__logo/_type/contacts__logo_type_mail.css);
+@import url(../blocks/contacts/__logo/_type/contacts__logo_type_papers.css);
+@import url(../blocks/contacts/__logo/_type/contacts__logo_type_phone.css);
+@import url(../blocks/contacts/__text/contacts__text.css);
+@import url(../blocks/contacts/_size/contacts_size_middle.css);
+@import url(../blocks/contacts/_size/contacts_size_small.css);
+
+@import url(../blocks/warning-card/warning-card.css);
+@import url(../blocks/warning-card/__list/warning-card__list.css);
+@import url(../blocks/warning-card/__logo/warning-card__logo.css);
+
+@import url(../blocks/grid-container/grid-container.css);
+@import url(../blocks/grid-container/__item/grid-container__item.css);
+@import url(../blocks/grid-container/_location/grid-container_location_price.css);
+@import url(../blocks/grid-container/_location/grid-container_location_registration.css);
+
+@import url(../blocks/flex-column-container/flex-column-container.css);
