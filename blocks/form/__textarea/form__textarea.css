@@ -17,7 +17,7 @@
 }
 
 .form__textarea:focus {
-  outline-color: #544D4D;
+  outline-color: var(--dark-text-color);
 }
 
 .form__textarea::placeholder {

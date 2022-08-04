@@ -1,5 +1,5 @@
 .contacts_size_middle {
-  border-top: 1px solid #544D4D;
+  border-top: 1px solid var(--dark-text-color);
   margin: 20px 40px 0;
   padding: 30px 0;
   align-items: center;

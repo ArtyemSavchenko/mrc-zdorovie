@@ -1,6 +1,6 @@
 .our-contacts__link {
   display: flex;
-  color: #544D4D;
+  color: var(--dark-text-color);
   text-decoration: none;
   align-items: center;
   transition: .2s linear;

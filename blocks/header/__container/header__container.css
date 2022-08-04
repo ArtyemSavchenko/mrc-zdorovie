@@ -2,9 +2,19 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #544D4D;
+  border-bottom: 1px solid var(--dark-text-color);
   align-items: center;
   padding: 20px 40px;
+  min-height: var(--menu-height);
+  box-sizing: border-box;
+}
+
+@media all and (max-width: 950px) {
+  .header__container {
+    border-bottom: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 @media all and (max-width: 767px) {

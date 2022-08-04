@@ -16,7 +16,7 @@
 
 .form__submit:hover {
   cursor: pointer;
-  background-color: #544D4D;
+  background-color: var(--dark-text-color);
 }
 
 @media all and (max-width: 589px) {

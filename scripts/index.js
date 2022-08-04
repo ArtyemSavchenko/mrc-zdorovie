@@ -1,10 +1,15 @@
-// DOM-ELEMENTS
-const mobileMenu = document.querySelector('.mobile-menu');
-const mobileMenuButton = document.querySelector('.header__button');
+const menuBtn = document.querySelector('.header__menu-button');
+const menuEl = document.querySelector('.header__menu');
 
-// FUNCTIONS
-function switchMobileMenu() {
-  mobileMenu.classList.toggle('mobile-menu_opened');
+const switchMobileMenu = () => {
+  if(menuBtn.classList.contains('header__menu-button_opened')) {
+    menuBtn.classList.remove('header__menu-button_opened');
+    menuEl.classList.remove('header__menu_opened');
+  }
+  else {
+    menuBtn.classList.add('header__menu-button_opened');
+    menuEl.classList.add('header__menu_opened');
+  }
 }
 
 function openPopup(evt) {
@@ -38,8 +43,7 @@ function closePopup(evt) {
   }
 }
 
-// LISTENERS
-mobileMenuButton.addEventListener('click', switchMobileMenu);
+menuBtn.addEventListener('click', switchMobileMenu);
 
 document.addEventListener('click', openPopup);
 document.addEventListener('click', closePopup);

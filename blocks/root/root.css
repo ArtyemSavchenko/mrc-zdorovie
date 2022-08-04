@@ -11,21 +11,16 @@
 @import url(../logo/__text/logo__text.css);
 
 @import url(../header/header.css);
-@import url(../header/__button/header__button.css);
+@import url(../header/__menu-button/header__menu-button.css);
+@import url(../header/__menu-button/_opened/header__menu-button_opened.css);
 @import url(../header/__contacts/header__contacts.css);
 @import url(../header/__container/header__container.css);
 @import url(../header/__link/header__link.css);
-@import url(../header/__link/_active/header__link_active.css);
+@import url(../header/__link/_current-page/header__link_current-page.css);
 @import url(../header/__list/header__list.css);
-@import url(../header/__list-item/header__list-item.css);
 @import url(../header/__menu/header__menu.css);
+@import url(../header/__menu/_opened/header__menu_opened.css);
 @import url(../header/__phone-number/header__phone-number.css);
-
-@import url(../mobile-menu/mobile-menu.css);
-@import url(../mobile-menu/__link/mobile-menu__link.css);
-@import url(../mobile-menu/__link/_active/mobile-menu__link_active.css);
-@import url(../mobile-menu/__list/mobile-menu__list.css);
-@import url(../mobile-menu/__list-item/mobile-menu__list-item.css);
 
 @import url(../footer/footer.css);
 @import url(../footer/__content-box/footer__content-box.css);
@@ -45,4 +40,7 @@
 
 :root {
   --accent-color: #e25915;
+  --page-color: #ededeb;
+  --dark-text-color: #544d4d;
+  --menu-height: 75px;
 }

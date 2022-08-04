@@ -1,0 +1,8 @@
+.header__menu-button_opened::before {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.header__menu-button_opened::after {
+  bottom: 50%;
+  transform: translate(-50%, 50%) rotate(-45deg);
+}

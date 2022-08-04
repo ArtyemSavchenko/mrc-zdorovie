@@ -1,5 +1,0 @@
-.mobile-menu_closed {
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility .3s, opacity .3s linear;
-}

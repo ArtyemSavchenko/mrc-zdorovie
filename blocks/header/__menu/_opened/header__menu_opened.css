@@ -1,0 +1,4 @@
+.header__menu_opened {
+  height: calc(100vh - var(--menu-height));
+  z-index: 3;
+}

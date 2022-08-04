@@ -1,3 +1,9 @@
 .logo_place_header {
   color: inherit;
 }
+
+@media (max-width: 767px) {
+  .logo_place_header > .logo__text {
+    display: none;
+  }
+}

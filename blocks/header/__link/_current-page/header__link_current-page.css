@@ -1,0 +1,14 @@
+.header__link_current-page {
+  border-bottom: 3px solid var(--accent-color);
+}
+
+@media all and (max-width: 950px) {
+  .header__link_current-page {
+    border-bottom: none;
+    color: var(--accent-color);
+  }
+  .header__link_current-page:hover {
+    background-color: transparent;
+    color: var(--accent-color);
+  }
+}

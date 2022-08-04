@@ -1,5 +1,5 @@
 .page {
-  background-color: #EDEDEB;
+  background-color: var(--page-color);
   font-family: 'Montserrat', Arial, sans-serif;
-  color: #544D4D;
+  color: var(--dark-text-color);
 }

@@ -2,7 +2,7 @@
   display: flex;
   list-style: none;
   padding: 20px 0;
-  border-bottom: 3px solid #544D4D;
+  border-bottom: 3px solid var(--dark-text-color);
   max-width: 790px;
   margin: 0 auto 40px;
   justify-content: space-between;
@@ -19,7 +19,7 @@
 	.our-contacts__list {
     max-width: 590px;
     margin-bottom: 20px;
-    border-bottom: 1px solid #544D4D;
+    border-bottom: 1px solid var(--dark-text-color);
     padding-bottom: 15px;
   }
 }

@@ -1,12 +1,17 @@
 .header__list {
   display: flex;
-  margin: 43px 40px 43px 0;
+  column-gap: 20px;
   justify-content: flex-end;
   padding: 0;
+  margin: 0;
 }
 
-@media all and (max-width: 1023px) {
-	.header__list {
-    margin-right: 20px;
+.header__list > li {
+  list-style-type: none;
+}
+
+@media all and (max-width: 950px) {
+  .header__list {
+    flex-direction: column;
   }
 }

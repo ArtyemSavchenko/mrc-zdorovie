@@ -1,5 +1,5 @@
 .new-center__photo {
-  border: solid #544D4D;
+  border: solid var(--dark-text-color);
   border-width: 0 1px;
   padding: 10px;
 }

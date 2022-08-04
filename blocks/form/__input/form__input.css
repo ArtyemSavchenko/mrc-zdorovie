@@ -12,7 +12,7 @@
 }
 
 .form__input:focus {
-  outline-color: #544D4D;
+  outline-color: var(--dark-text-color);
 }
 
 .form__input::placeholder {
