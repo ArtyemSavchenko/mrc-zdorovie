@@ -11,6 +11,7 @@
     background-color: var(--page-color);    
     top: var(--menu-height);
     height: 0;
-    width: 100vw;
+    left: 0;
+    right: 0;
   }
 }

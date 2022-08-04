@@ -6,6 +6,7 @@
   border: 0;
   padding: 0;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .header__menu-button::before {
