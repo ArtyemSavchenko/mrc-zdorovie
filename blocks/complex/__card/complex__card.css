@@ -1,0 +1,9 @@
+.complex__card {
+  display: flex;
+}
+
+@media all and (max-width: 767px) {
+  .complex__card {
+    flex-direction: column-reverse;
+  }
+}

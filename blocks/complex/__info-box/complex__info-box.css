@@ -1,4 +1,4 @@
-.complex-info {
+.complex__info-box {
   width: 36.04%;
   display: flex;
   flex-direction: column;
@@ -7,13 +7,13 @@
 }
 
 @media all and (max-width: 1439px) {
-	.complex-info {
+	.complex__info-box {
     width: 50%;
   }
 }
 
 @media all and (max-width: 767px) {
-	.complex-info {
+	.complex__info-box {
     width: 100%;
     flex-basis: 230px;
   }

@@ -10,17 +10,14 @@
 @import url(../blocks/intro/__wrapper/intro__wrapper.css);
 
 @import url(../blocks/complex/complex.css);
-@import url(../blocks/complex/__container/complex__container.css);
+@import url(../blocks/complex/__card/complex__card.css);
+@import url(../blocks/complex/__card/_reversed/complex__card_reversed.css);
 @import url(../blocks/complex/__photo/complex__photo.css);
-@import url(../blocks/complex/__photo/_order/complex__photo_order_fourth.css);
-@import url(../blocks/complex/__photo/_order/complex__photo_order_second.css);
-@import url(../blocks/complex/__photo/_order/complex__photo_order_sixth.css);
-
-@import url(../blocks/complex-info/complex-info.css);
-@import url(../blocks/complex-info/__list-item/complex-info__list-item.css);
-@import url(../blocks/complex-info/__list/complex-info__list.css);
-@import url(../blocks/complex-info/__logo/complex-info__logo.css);
-@import url(../blocks/complex-info/__title/complex-info__title.css);
+@import url(../blocks/complex/__info-box/complex__info-box.css);
+@import url(../blocks/complex/__title/complex__title.css);
+@import url(../blocks/complex/__logo/complex__logo.css);
+@import url(../blocks/complex/__list/complex__list.css);
+@import url(../blocks/complex/__list-item/complex__list-item.css);
 
 @import url(../blocks/achievements/achievements.css);
 @import url(../blocks/achievements/__large-text/achievements__large-text.css);
