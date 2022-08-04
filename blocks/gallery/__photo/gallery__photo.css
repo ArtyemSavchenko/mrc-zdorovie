@@ -1,0 +1,5 @@
+.gallery__photo {
+  width: clamp(250px, 100%, 500px);
+  aspect-ratio: 1;
+  display: block;
+}

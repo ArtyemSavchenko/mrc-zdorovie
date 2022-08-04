@@ -1,28 +1,4 @@
 @import url(../blocks/root/root.css);
 
-@import url(../blocks/procedures/procedures.css);
-@import url(../blocks/procedures/__cards/procedures__cards.css);
-@import url(../blocks/procedures/__card/_position/procedures__card_position_left.css);
-@import url(../blocks/procedures/__card/_position/procedures__card_position_right.css);
-
-@import url(../blocks/procedures/__card-photo/procedures__card-photo.css);
-@import url(../blocks/procedures/__card-photo/_type/procedures__card-photo_type_description.css);
-@import url(../blocks/procedures/__card-photo/_type/procedures__card-photo_type_gallery.css);
-
-@import url(../blocks/procedures/__card/_location/procedures__card_location_gallery.css);
-
-@import url(../blocks/procedures/__card-photo/_position/procedures__card-photo_position_1-focus.css);
-@import url(../blocks/procedures/__card-photo/_position/procedures__card-photo_position_12-focus.css);
-@import url(../blocks/procedures/__card-photo/_position/procedures__card-photo_position_13-focus.css);
-@import url(../blocks/procedures/__card-photo/_position/procedures__card-photo_position_18-focus.css);
-@import url(../blocks/procedures/__card-photo/_position/procedures__card-photo_position_19-focus.css);
-@import url(../blocks/procedures/__card-photo/_position/procedures__card-photo_position_6-focus.css);
-@import url(../blocks/procedures/__card-photo/_position/procedures__card-photo_position_7-focus.css);
-@import url(../blocks/procedures/__card-photo/_position/procedures__card-photo_position_bailoterapia-focus.css);
-@import url(../blocks/procedures/__card-photo/_position/procedures__card-photo_position_bioacoustic-correction-focus.css);
-@import url(../blocks/procedures/__card-photo/_position/procedures__card-photo_position_defectologist-focus.css);
-@import url(../blocks/procedures/__card-photo/_position/procedures__card-photo_position_hydrotherapy-focus.css);
-@import url(../blocks/procedures/__card-photo/_position/procedures__card-photo_position_massage-focus.css);
-@import url(../blocks/procedures/__card-photo/_position/procedures__card-photo_position_mud-applications-focus.css);
-
-@import url(../blocks/procedures/__card-title/procedures__card-title.css);
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__photo/gallery__photo.css);
