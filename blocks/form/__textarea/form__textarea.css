@@ -9,7 +9,7 @@
   box-sizing: border-box;
   margin-bottom: 10px;
   resize: none;
-  background-color: #FFF9F9;
+  box-shadow: 0 0 0 1px #C4C4C4 inset;
 }
 
 .form__textarea:first-of-type {
@@ -21,19 +21,7 @@
 }
 
 .form__textarea::placeholder {
-  color: #C4C4C4;
-}
-
-.form__textarea::-webkit-input-placeholder {
-  color: #C4C4C4;
-}
-
-.form__textarea::-moz-placeholder {
-  color: #C4C4C4;
-}
-
-.form__textarea::-ms-input-placeholder {
-  color: #C4C4C4;
+  color: #999;
 }
 
 @media all and (max-width: 589px) {
