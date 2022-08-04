@@ -26,7 +26,9 @@
     width: 190px;
     height: 190px;
   }
+}
 
+@media all and (max-width: 479px) {
   .achievements__list-item:nth-of-type(odd) {
     justify-self: start;
   }

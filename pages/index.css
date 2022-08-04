@@ -21,12 +21,12 @@
 
 @import url(../blocks/achievements/achievements.css);
 @import url(../blocks/achievements/__large-text/achievements__large-text.css);
-@import url(../blocks/achievements/__list-item/achievements__list-item.css);
 @import url(../blocks/achievements/__list-item/_position/achievements__list-item_position_center.css);
 @import url(../blocks/achievements/__list-item/_position/achievements__list-item_position_left-center.css);
 @import url(../blocks/achievements/__list-item/_position/achievements__list-item_position_left.css);
 @import url(../blocks/achievements/__list-item/_position/achievements__list-item_position_right-center.css);
 @import url(../blocks/achievements/__list-item/_position/achievements__list-item_position_right.css);
+@import url(../blocks/achievements/__list-item/achievements__list-item.css);
 @import url(../blocks/achievements/__list-item/_type/achievements__list-item_type_bubble.css);
 @import url(../blocks/achievements/__list/achievements__list.css);
 @import url(../blocks/achievements/__middle-text/achievements__midlle-text.css);
