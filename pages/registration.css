@@ -1,4 +1,5 @@
 @import url(../blocks/root/root.css);
+@import url(../blocks/box-shadow/box-shadow.css);
 
 @import url(../blocks/registration/registration.css);
 @import url(../blocks/registration/__container/registration__container.css);
@@ -25,13 +26,15 @@
 @import url(../blocks/contacts/_size/contacts_size_middle.css);
 @import url(../blocks/contacts/_size/contacts_size_small.css);
 
+@import url(../blocks/healing/healing.css);
+@import url(../blocks/healing/__healing-calendar/healing__healing-calendar.css);
+
+@import url(../blocks/healing-calendar/healing-calendar.css);
+@import url(../blocks/healing-calendar/__heading/healing-calendar__heading.css);
+@import url(../blocks/healing-calendar/__subheading/healing-calendar__subheading.css);
+@import url(../blocks/healing-calendar/__table/healing-calendar__table.css);
+@import url(../blocks/healing-calendar/__text/healing-calendar__text.css);
+
 @import url(../blocks/warning-card/warning-card.css);
 @import url(../blocks/warning-card/__list/warning-card__list.css);
 @import url(../blocks/warning-card/__logo/warning-card__logo.css);
-
-@import url(../blocks/grid-container/grid-container.css);
-@import url(../blocks/grid-container/__item/grid-container__item.css);
-@import url(../blocks/grid-container/_location/grid-container_location_price.css);
-@import url(../blocks/grid-container/_location/grid-container_location_registration.css);
-
-@import url(../blocks/flex-column-container/flex-column-container.css);

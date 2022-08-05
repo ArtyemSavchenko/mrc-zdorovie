@@ -1,0 +1,19 @@
+.healing-calendar__table {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(13, max-content);
+  grid-auto-flow: column;
+  justify-content: space-around;
+  row-gap: 7px;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  position: relative;
+}
+
+.healing-calendar__table::before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: currentColor;
+  left: 50%;
+}
