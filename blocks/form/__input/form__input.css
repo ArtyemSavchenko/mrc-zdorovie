@@ -1,44 +1,29 @@
 .form__input {
+  display: block;
   box-sizing: border-box;
   width: 100%;
   min-height: 40px;
-  border: none;
+  border: 1px solid #ddd;
+  outline: none;
   border-radius: 5px;
-  padding: 0 18px;
-  margin-bottom: 5px;
+  padding: 0 20px;
   font-size: 12px;
-  line-height: 15px;
-  box-shadow: 0 0 0 1px #C4C4C4 inset;
+  line-height: 1.25;
+  position: relative;
 }
 
 .form__input:focus {
-  outline-color: var(--dark-text-color);
+  border: 1px solid currentColor;
 }
 
 .form__input::placeholder {
   color: #999;
 }
 
-.form__input[type="number"]::-webkit-outer-spin-button,
-.form__input[type="number"]::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-.form__input[type="number"] {
-  -moz-appearance: textfield;
-}
-
-.form__input[type="number"]:hover,
-.form__input[type="number"]:focus {
-  -moz-appearance: number-input;
-}
-
 @media all and (max-width: 589px) {
 	.form__input {
     min-height: 30px;
     font-size: 10px;
-    line-height: 12px;
     padding-left: 15px;
   }
 }
