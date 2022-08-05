@@ -1,0 +1,6 @@
+@media (max-width: 950px) {
+  .header_mobile-opened {
+    height: 100vh;
+    background-color: var(--page-color);
+  }
+}

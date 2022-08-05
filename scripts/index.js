@@ -1,14 +1,14 @@
 const menuBtn = document.querySelector('.header__menu-button');
-const menuEl = document.querySelector('.header__menu');
+const headerEl = document.querySelector('.header');
 
 const switchMobileMenu = () => {
   if(menuBtn.classList.contains('header__menu-button_opened')) {
     menuBtn.classList.remove('header__menu-button_opened');
-    menuEl.classList.remove('header__menu_opened');
+    headerEl.classList.remove('header_mobile-opened');
   }
   else {
     menuBtn.classList.add('header__menu-button_opened');
-    menuEl.classList.add('header__menu_opened');
+    headerEl.classList.add('header_mobile-opened');
   }
 }
 

@@ -11,15 +11,14 @@
 @import url(../logo/__text/logo__text.css);
 
 @import url(../header/header.css);
+@import url(../header/_mobile-opened/header_mobile-opened.css);
 @import url(../header/__menu-button/header__menu-button.css);
 @import url(../header/__menu-button/_opened/header__menu-button_opened.css);
 @import url(../header/__contacts/header__contacts.css);
-@import url(../header/__container/header__container.css);
 @import url(../header/__link/header__link.css);
 @import url(../header/__link/_current-page/header__link_current-page.css);
 @import url(../header/__list/header__list.css);
 @import url(../header/__menu/header__menu.css);
-@import url(../header/__menu/_opened/header__menu_opened.css);
 @import url(../header/__phone-number/header__phone-number.css);
 
 @import url(../footer/footer.css);

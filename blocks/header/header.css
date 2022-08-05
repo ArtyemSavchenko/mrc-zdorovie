@@ -1,0 +1,24 @@
+.header {
+  padding: 18px 0;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-template-rows: max-content max-content;
+  align-items: start;
+  row-gap: 14px;
+  transition: height .3s;
+  overflow: hidden;
+  background-color: var(--page-color);
+}
+
+@media (max-width: 950px) {
+  .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 48px;
+    top: 0;
+    position: sticky;
+    z-index: 7;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, .1);
+  }
+}

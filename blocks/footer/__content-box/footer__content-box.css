@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 950px) {
   .footer__content-box {
     grid-template-columns: 1fr;
     grid-template-rows: none;

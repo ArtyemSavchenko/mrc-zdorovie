@@ -1,17 +1,13 @@
 .header__menu {
-  padding: 30px 40px 20px;
   transition: height .3s;
-  overflow: hidden;
+  grid-column: 1 / -1;
+  border-top: 1px solid currentColor;
+  padding: 0 40px;
 }
 
 @media all and (max-width: 950px) {
 	.header__menu {
     padding: 0;
-    position: fixed;
-    background-color: var(--page-color);    
-    top: var(--menu-height);
-    height: 0;
-    left: 0;
-    right: 0;
+    border-top: none;
   }
 }

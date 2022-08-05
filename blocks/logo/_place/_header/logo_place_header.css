@@ -1,5 +1,12 @@
 .logo_place_header {
   color: inherit;
+  margin-left: 40px;
+}
+
+@media (max-width: 950px) {
+  .logo_place_header {
+    margin-left: 20px;
+  }
 }
 
 @media (max-width: 767px) {

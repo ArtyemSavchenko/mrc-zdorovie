@@ -1,6 +1,0 @@
-@media all and (max-width: 950px) {
-  .header__menu_opened {
-    height: calc(100vh - var(--menu-height));
-    z-index: 3;
-  }
-}

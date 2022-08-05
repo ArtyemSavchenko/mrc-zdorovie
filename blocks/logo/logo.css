@@ -9,13 +9,7 @@
   transition: font-size .2s;
 }
 
-@media all and (max-width: 767px) {
-	.logo {
-    font-size: 30px;
-  }
-}
-
-@media all and (max-width: 480px) {
+@media all and (max-width: 950px) {
 	.logo {
     font-size: 22px;
   }
