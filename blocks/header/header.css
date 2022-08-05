@@ -6,9 +6,10 @@
   grid-template-rows: max-content max-content;
   align-items: start;
   row-gap: 14px;
-  transition: height .3s;
+  transition: height .3s, background-color .3s;
   overflow: hidden;
-  background-color: var(--page-color);
+  background-color: rgba(255, 255, 255, .6);
+  backdrop-filter: blur(10px);
 }
 
 @media (max-width: 950px) {
@@ -19,6 +20,5 @@
     top: 0;
     position: sticky;
     z-index: 7;
-    box-shadow: 0 0 5px 1px rgba(0, 0, 0, .1);
   }
 }
