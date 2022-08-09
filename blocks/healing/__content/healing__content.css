@@ -1,0 +1,15 @@
+.healing__content {
+  display: flex;
+  column-gap: 40px;
+  row-gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1000px) {
+  .healing__content {
+    align-items: center;
+  }
+}
