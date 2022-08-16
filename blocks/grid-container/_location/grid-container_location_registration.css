@@ -1,9 +1,0 @@
-.grid-container_location_registration {
-  margin: 30px 40px 0;
-}
-
-@media all and (max-width: 1023px) {
-	.grid-container_location_registration {
-    margin: 30px 20px 0;
-  }
-}

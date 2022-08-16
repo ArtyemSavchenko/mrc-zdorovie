@@ -9,7 +9,3 @@
 @import url(../blocks/pricelist/__procedure/pricelist__procedure.css);
 @import url(../blocks/pricelist/__price/pricelist__price.css);
 
-@import url(../blocks/grid-container/grid-container.css);
-@import url(../blocks/grid-container/__item/grid-container__item.css);
-@import url(../blocks/grid-container/_location/grid-container_location_price.css);
-
