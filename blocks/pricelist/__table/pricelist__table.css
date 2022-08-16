@@ -1,0 +1,13 @@
+.pricelist__table {
+  margin: 20px auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+  position: relative;
+  border-collapse: collapse;
+}
+
+
+.pricelist__table th, .pricelist__table td {
+  padding: .7em 1.2em;
+  border: 1px solid #ddd;
+}

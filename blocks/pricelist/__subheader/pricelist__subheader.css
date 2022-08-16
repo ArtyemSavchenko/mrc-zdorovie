@@ -1,0 +1,10 @@
+.pricelist__subheader {
+  text-align: center;
+  font-weight: 600;
+}
+
+@media (max-width: 950px) {
+  .pricelist__subheader {
+    text-align: left;
+  }
+}

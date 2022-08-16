@@ -1,0 +1,9 @@
+.pricelist__price {
+  text-align: center;
+}
+
+.pricelist__price::after {
+ content: '₽';
+ margin-left: .1em;
+ font-size: .97em;
+}

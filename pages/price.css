@@ -1,5 +1,14 @@
 @import url(../blocks/root/root.css);
 
+@import url(../blocks/pricelist/pricelist.css);
+@import url(../blocks/pricelist/__table/pricelist__table.css);
+@import url(../blocks/pricelist/__header/pricelist__header.css);
+@import url(../blocks/pricelist/__header/_left-side/pricelist__header_left-side.css);
+@import url(../blocks/pricelist/__caption/pricelist__caption.css);
+@import url(../blocks/pricelist/__subheader/pricelist__subheader.css);
+@import url(../blocks/pricelist/__procedure/pricelist__procedure.css);
+@import url(../blocks/pricelist/__price/pricelist__price.css);
+
 @import url(../blocks/grid-container/grid-container.css);
 @import url(../blocks/grid-container/__item/grid-container__item.css);
 @import url(../blocks/grid-container/_location/grid-container_location_price.css);

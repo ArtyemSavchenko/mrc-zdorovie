@@ -1,0 +1,11 @@
+.pricelist__header {
+  /* position: sticky;
+  top: 0; */
+  background-color: #ddd;
+}
+
+@media (max-width: 950px) {
+  .pricelist__header {
+    top: 48px;
+  }  
+}
