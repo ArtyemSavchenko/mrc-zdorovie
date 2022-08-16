@@ -1,0 +1,4 @@
+.warning-card__card {
+  border-left: 7px solid var(--accent-color);
+  padding-left: 2em;
+}

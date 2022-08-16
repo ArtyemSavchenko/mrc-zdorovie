@@ -1,24 +1,6 @@
 .warning-card {
+  margin: 0 auto;
+  max-width: 920px;
   display: flex;
-  border-radius: 5px;
-  margin: 20px 40px 30px;
-  padding: 20px;
-}
-
-@media all and (max-width: 1023px) {
-	.warning-card {
-    margin: 20px 20px 30px;
-  }
-}
-
-@media all and (max-width: 589px) {
-	.warning-card {
-    margin: 20px;
-  }
-}
-
-@media all and (max-width: 320px) {
-	.warning-card {
-    padding: 10px;
-  }
+  padding: 10px 20px 50px;
 }

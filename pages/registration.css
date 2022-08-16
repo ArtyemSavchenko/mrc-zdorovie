@@ -37,5 +37,6 @@
 @import url(../blocks/healing-calendar/__text/healing-calendar__text.css);
 
 @import url(../blocks/warning-card/warning-card.css);
+@import url(../blocks/warning-card/__card/warning-card__card.css);
 @import url(../blocks/warning-card/__list/warning-card__list.css);
 @import url(../blocks/warning-card/__logo/warning-card__logo.css);
