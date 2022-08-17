@@ -1,4 +1,9 @@
 .procedures {
-  display: flex;
-  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+  gap: 16px;
+  padding: 16px;
 }

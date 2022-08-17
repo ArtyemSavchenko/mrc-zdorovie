@@ -1,0 +1,8 @@
+.procedure-card {
+  display: grid;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, .15);
+  grid-template-columns: 1fr min-content;
+  grid-template-rows: 1fr min-content;
+  border-radius: 7px;
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.procedure-card__title {
+  margin: 12px 12px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  align-self: center;
+}

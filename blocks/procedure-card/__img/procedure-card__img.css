@@ -1,0 +1,8 @@
+.procedure-card__img {
+  height: 100%;
+  width: 100%;
+  grid-column: span 2;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
