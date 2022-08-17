@@ -1,0 +1,16 @@
+.popup__window {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  padding: 22px;
+  max-width: 90vw;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .popup__window {
+    padding: 32px;
+    max-width: 66vw;
+  }
+}

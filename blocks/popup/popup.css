@@ -1,0 +1,16 @@
+.popup {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  display: grid;
+  place-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, .9);
+  backdrop-filter: blur(20px);
+  z-index: 7;
+  transition: opacity .3s, visibility 0s .3s;
+}

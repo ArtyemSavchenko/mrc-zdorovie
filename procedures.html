@@ -43,44 +43,23 @@
 
       <ul class="procedures">
         <li class="procedures__procedure">
-          <div class="procedure-card">
-            <img class="procedure-card__img" src="./images/procedures__card-photo_name_1.jpg" alt="">
-            <p class="procedure-card__title">общий массаж</p>
-            <button class="procedure-card__more-info-btn">?</button>
-          </div>
-        </li>
-        <li class="procedures__procedure procedures__procedure_size_big">
-          <div class="procedure-card">
+          <div class="procedure-card" id="general-massage">
             <img class="procedure-card__img" src="./images/procedures__card-photo_name_1.jpg" alt="">
             <p class="procedure-card__title">общий массаж</p>
             <button class="procedure-card__more-info-btn">?</button>
           </div>
         </li>
         <li class="procedures__procedure">
-          <div class="procedure-card">
+          <div class="procedure-card" id="speech-therapy-massage">
             <img class="procedure-card__img" src="./images/procedures__card-photo_name_1.jpg" alt="">
-            <p class="procedure-card__title">общий массаж</p>
+            <p class="procedure-card__title">логопедический массаж</p>
             <button class="procedure-card__more-info-btn">?</button>
           </div>
         </li>
         <li class="procedures__procedure">
-          <div class="procedure-card">
+          <div class="procedure-card" id="pool">
             <img class="procedure-card__img" src="./images/procedures__card-photo_name_1.jpg" alt="">
-            <p class="procedure-card__title">общий массаж</p>
-            <button class="procedure-card__more-info-btn">?</button>
-          </div>
-        </li>
-        <li class="procedures__procedure">
-          <div class="procedure-card">
-            <img class="procedure-card__img" src="./images/procedures__card-photo_name_1.jpg" alt="">
-            <p class="procedure-card__title">общий массаж</p>
-            <button class="procedure-card__more-info-btn">?</button>
-          </div>
-        </li>
-        <li class="procedures__procedure">
-          <div class="procedure-card">
-            <img class="procedure-card__img" src="./images/procedures__card-photo_name_1.jpg" alt="">
-            <p class="procedure-card__title">общий массаж</p>
+            <p class="procedure-card__title">водные процедуры</p>
             <button class="procedure-card__more-info-btn">?</button>
           </div>
         </li>
@@ -88,6 +67,13 @@
 
     </section>
   </main>
+
+  <div class="popup" id="popup-info">
+    <div class="popup__window">
+      <div class="popup__info-box"></div>
+      <button class="popup__close-btn" type="button" aria-label="Закрыть форму."></button>
+    </div>
+  </div>
 
   <footer class="footer">
     <div class="wrapper footer__content-box">
@@ -146,7 +132,7 @@
     </p>
   </footer>
 
-  <script src="./scripts/index.js"></script>
+  <script type="module" src="./pages/procedures.js"></script>
 </body>
 
 </html>
