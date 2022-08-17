@@ -1,0 +1,11 @@
+.gallery__photo_size_big {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+@media (max-width: 580px) {
+  .gallery__photo_size_big {
+    grid-row: span 1;
+    grid-column: span 1;
+  }
+}

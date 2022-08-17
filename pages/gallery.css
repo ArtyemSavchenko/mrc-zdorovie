@@ -2,3 +2,4 @@
 
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__photo/gallery__photo.css);
+@import url(../blocks/gallery/__photo/_size/gallery__photo_size_big.css);

@@ -3,32 +3,12 @@
   padding: 0;
   list-style-type: none;
   display: grid;
-  grid-template-columns: minmax(250px, auto);
+  grid-template-columns: repeat(auto-fit, minmax(290px, auto));
+  grid-auto-flow: dense;
 }
 
 @media (min-width: 500px) {
   .gallery {
-    grid-template-columns: repeat(2, minmax(250px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(290px, auto));
   }
 }
-
-@media (min-width: 1000px) {
-  .gallery {
-    grid-template-columns: repeat(3, minmax(330px, auto));
-  }
-}
-
-/* .gallery {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-  grid-auto-flow: dense;
-} */
-
-/* @media (min-width: 640px) {
-  .gallery {
-    grid-template-columns: repeat(auto-fit, minmax(320px, auto));
-  }
-} */
