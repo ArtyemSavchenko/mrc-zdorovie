@@ -1,0 +1,6 @@
+.pricelist__not-provided {
+  text-align: center;
+}
+.pricelist__not-provided::before {
+  content: '—';
+}
