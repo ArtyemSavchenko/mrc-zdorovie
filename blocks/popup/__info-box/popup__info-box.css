@@ -1,4 +1,23 @@
 .popup__info-box {
   max-height: 100%;
+  max-width: 40vw;
   overflow: auto;
+}
+
+@media (max-width: 1600px) {
+  .popup__info-box {
+    max-width: 50vw;
+  }
+}
+
+@media (max-width: 1280px) {
+  .popup__info-box {
+    max-width: 66vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .popup__info-box {
+    max-width: auto;
+  }
 }
