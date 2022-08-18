@@ -1,4 +1,5 @@
 .documents__photo {
   width: 100%;
   cursor: zoom-in;
+  display: block;
 }

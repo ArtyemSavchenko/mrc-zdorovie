@@ -1,24 +1,16 @@
 .documents {
-  max-width: 1196px;
-  align-self: center;
-  margin: 40px;
-  padding: 0;
+  padding: 20px;
+  margin: 0;
   list-style: none;
-  line-height: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
   gap: 20px;
+  place-content: center;
 }
 
-@media all and (max-width: 1023px) {
+@media all and (max-width: 768px) {
 	.documents {
-    margin: 20px;
+    padding: 10px;
     gap: 10px;
-  }
-}
-
-@media all and (max-width: 767px) {
-	.documents {
-    grid-template-columns: repeat(2, 1fr);
   }
 }

@@ -14,8 +14,6 @@
 @import url(../blocks/documents/documents.css);
 @import url(../blocks/documents/__photo/documents__photo.css);
 
-@import url(../blocks/flex-column-container/flex-column-container.css);
-
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__close-btn/popup__close-btn.css);
 @import url(../blocks/popup/_active/popup_active.css);
