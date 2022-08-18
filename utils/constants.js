@@ -1,8 +1,12 @@
-export const popupSelectors = {
+export const popupInfoSelectors = {
   popupSelector: "#popup-info",
   infoBoxSelector: ".popup__info-box",
 };
-
+export const popupImgSelectors = {
+  popupSelector: '#popup-img',
+  imgElSelector: '.popup__img',
+};
+export const documentPhotoSelector = '.documents__photo';
 export const procedureCardSelector = ".procedure-card";
 
 const popupTags = {
@@ -11,7 +15,6 @@ const popupTags = {
   openInfoTextAccent: '<span class="popup__info-text_accent">',
   closeInfoTextAccent: "</span>",
 };
-
 export const proceduresInfos = [
   {
     name: "general-massage",
