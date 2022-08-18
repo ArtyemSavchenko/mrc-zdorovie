@@ -3,12 +3,19 @@
   padding: 0;
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, auto));
+  grid-template-columns: repeat(4, minmax(250px, auto));
   grid-auto-flow: dense;
 }
 
-@media (min-width: 500px) {
+
+@media (max-width: 1024px) {
   .gallery {
-    grid-template-columns: repeat(auto-fit, minmax(290px, auto));
+    grid-template-columns: repeat(3, minmax(250px, auto));
+  }
+}
+
+@media (max-width: 760px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   }
 }

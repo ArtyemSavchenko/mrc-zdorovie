@@ -3,7 +3,7 @@
   grid-column: span 2;
 }
 
-@media (max-width: 580px) {
+@media (max-width: 760px) {
   .gallery__photo_size_big {
     grid-row: span 1;
     grid-column: span 1;
