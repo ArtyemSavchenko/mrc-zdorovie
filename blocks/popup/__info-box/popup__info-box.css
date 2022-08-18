@@ -1,0 +1,4 @@
+.popup__info-box {
+  max-height: 100%;
+  overflow: auto;
+}

@@ -5,6 +5,7 @@
   box-sizing: border-box;
   padding: 22px;
   max-width: 90vw;
+  max-height: 80vh;
   position: relative;
 }
 
