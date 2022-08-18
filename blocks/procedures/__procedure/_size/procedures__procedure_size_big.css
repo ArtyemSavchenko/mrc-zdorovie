@@ -1,4 +1,12 @@
 .procedures__procedure_size_big {
   grid-row: span 2;
   grid-column: span 2;
+  aspect-ratio: auto;
+}
+
+@media (max-width: 768px) {
+  .procedures__procedure_size_big {
+    grid-row: span 1;
+    grid-column: span 1;
+  }
 }

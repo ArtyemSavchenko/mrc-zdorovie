@@ -7,3 +7,9 @@
   gap: 16px;
   padding: 16px;
 }
+
+@media (max-width: 768px) {
+  .procedures {
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+  }
+}
