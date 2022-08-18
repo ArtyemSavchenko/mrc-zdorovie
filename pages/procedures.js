@@ -1,3 +1,5 @@
+import '../utils/mobile-menu.js';
+
 import {
   popupSelectors,
   proceduresInfos,
