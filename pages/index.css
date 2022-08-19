@@ -1,6 +1,6 @@
 @import url(../blocks/root/root.css);
-
 @import url(../blocks/button/button.css);
+@import url(../blocks/box-shadow/box-shadow.css);
 
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__button/intro__button.css);
@@ -38,3 +38,6 @@
 
 @import url(../blocks/health-center/health-center.css);
 @import url(../blocks/health-center/__photo/health-center__photo.css);
+@import url(../blocks/health-center/__text-box/health-center__text-box.css);
+@import url(../blocks/health-center/__heading/health-center__heading.css);
+@import url(../blocks/health-center/__text/health-center__text.css);

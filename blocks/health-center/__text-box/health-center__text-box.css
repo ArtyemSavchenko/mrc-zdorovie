@@ -1,0 +1,7 @@
+.health-center__text-box {
+  display: grid;
+  place-content: center;
+  padding: 20px;
+  align-self: stretch;
+  gap: 10px;
+}

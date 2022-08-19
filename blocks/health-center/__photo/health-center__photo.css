@@ -1,18 +1,14 @@
 .health-center__photo {
-  width: 100%;
-  height: 740px;
+  display: block;
   object-fit: cover;
   object-position: top;
+  height: calc(100% - 40px);
+  width: 100%;
 }
 
-@media all and (max-width: 1440px) {
-	.health-center__photo {
-    height: calc(740 / 1440 * 100vw);
-  }
-}
-
-@media all and (max-width: 767px) {
-	.health-center__photo {
+@media (max-width: 1024px) {
+  .health-center__photo {
+    width: 100%;
     height: auto;
   }
 }
