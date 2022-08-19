@@ -16,3 +16,9 @@
     --gaps: 10px;
   }
 }
+
+@media (max-width: 340px) {
+  .procedures {
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+  }
+}
