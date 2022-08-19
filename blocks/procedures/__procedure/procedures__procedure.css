@@ -1,4 +1,6 @@
 .procedures__procedure {
-  aspect-ratio: 1;
+  /* aspect-ratio: 1; */
   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }

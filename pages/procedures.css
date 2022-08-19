@@ -3,6 +3,9 @@
 @import url(../blocks/procedures/procedures.css);
 @import url(../blocks/procedures/__procedure/procedures__procedure.css);
 @import url(../blocks/procedures/__procedure/_size/procedures__procedure_size_big.css);
+@import url(../blocks/procedures/__procedure/_size/procedures__procedure_size_high.css);
+@import url(../blocks/procedures/__procedure/_size/procedures__procedure_size_wide.css);
+
 
 @import url(../blocks/procedure-card/procedure-card.css);
 @import url(../blocks/procedure-card/__img/procedure-card__img.css);

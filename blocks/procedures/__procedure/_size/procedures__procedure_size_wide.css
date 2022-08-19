@@ -1,0 +1,9 @@
+.procedures__procedure_size_wide {
+  grid-column: span 2;
+}
+
+@media (max-width: 800px) {
+  .procedures__procedure_size_wide {
+    grid-column: span 1;
+  }
+}

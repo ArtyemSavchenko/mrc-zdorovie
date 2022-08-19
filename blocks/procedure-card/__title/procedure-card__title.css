@@ -1,8 +1,17 @@
 .procedure-card__title {
-  margin: 12px 12px;
+  margin: 12px 0;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 1;
+  font-size: 14px;
+  line-height: 1.2;
   letter-spacing: .2em;
   text-transform: uppercase;
+  background-color: #fff;
+  padding:.7em 2em;
+  box-sizing: border-box;
+  min-height: 62px;
+  display: flex;
+  align-items: center;
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  place-self: end stretch;
 }
