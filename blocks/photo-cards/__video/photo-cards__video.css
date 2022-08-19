@@ -1,36 +1,5 @@
 .photo-cards__video {
   width: 100%;
-  height: 278px;
+  height: 100%;
   border: none;
-  border-radius: 5px;
-}
-
-@media all and (max-width: 1440px) {
-	.photo-cards__video {
-    height: calc(278 / 670 * (100vw - 80px - 20px) / 2);
-  }
-}
-
-@media all and (max-width: 1024px) {
-	.photo-cards__video {
-    height: calc(278 / 670 * (100vw - 80px - 15px) / 2);
-  }
-}
-
-@media all and (max-width: 1023px) {
-	.photo-cards__video {
-    height: calc(278 / 670 * (100vw - 40px - 15px) / 2);
-  }
-}
-
-@media all and (max-width: 768px) {
-	.photo-cards__video {
-    height: calc(278 / 670 * (100vw - 40px - 10px) / 2);
-  }
-}
-
-@media all and (max-width: 579px) {
-	.photo-cards__video {
-    height: calc(278 / 670 * (100vw - 40px));
-  }
 }

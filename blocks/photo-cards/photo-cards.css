@@ -1,22 +1,9 @@
 .photo-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
   padding: 0;
   list-style: none;
   line-height: 0;
-}
-
-@media all and (max-width: 1024px) {
-	.photo-cards {
-    gap: 15px;
-  }
-}
-
-@media all and (max-width: 768px) {
-	.photo-cards {
-    gap: 10px;
-  }
 }
 
 @media all and (max-width: 579px) {
