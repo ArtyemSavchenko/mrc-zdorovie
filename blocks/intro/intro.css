@@ -1,37 +1,39 @@
 .intro {
-  position: relative;
-  height: 589px;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  min-height: 589px;
   box-sizing: border-box;
   background-image: url(../../images/intro.webp);
   background-position: center;
   background-size: cover;
-  padding: 60px 0 40px;
+  padding: 40px;
+  gap: 40px;
 }
 
 @media all and (max-width: 1164px) {
 	.intro {
-    height: 366px;
-    padding: 50px 0 30px;
+    min-height: 366px;
   }
 }
 
 @media all and (max-width: 767px) {
 	.intro {
-    display: flex;
     padding: 0;
-    align-items: center;
-    height: auto;
+    min-height: auto;
+    padding: 20px;
   }
 }
 
 @media all and (max-width: 480px) {
 	.intro {
-    height: 280px;
+    min-height: 280px;
+    padding: 10px;
   }
 }
 
 @media all and (max-width: 381px) {
 	.intro {
-    height: 240px;
+    min-height: 240px;
   }
 }

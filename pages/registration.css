@@ -1,5 +1,6 @@
 @import url(../blocks/root/root.css);
 @import url(../blocks/box-shadow/box-shadow.css);
+@import url(../blocks/button/button.css);
 
 @import url(../blocks/registration/registration.css);
 @import url(../blocks/registration/__container/registration__container.css);
