@@ -1,5 +1,5 @@
 .procedure-card__title {
-  font-size: clamp(12px, 1vw, 16px);
+  font-size: 14px;
   max-width: 100%;
   overflow: hidden;
   margin: 1em 0;

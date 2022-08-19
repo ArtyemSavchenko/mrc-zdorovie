@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(305px, auto));
   grid-template-rows: auto;
   grid-auto-flow: dense;
   --gaps: 20px;
