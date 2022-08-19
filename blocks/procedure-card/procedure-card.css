@@ -1,6 +1,6 @@
 .procedure-card {
   display: grid;
-  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, .4);
   border-radius: 7px;
   cursor: pointer;
   overflow: hidden;
@@ -15,7 +15,7 @@
   .procedure-card:hover,
   .procedure-card:focus-within {
     transform: translateY(-7px);
-    box-shadow: 0 10px 10px 2px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10px 10px 2px rgba(0, 0, 0, .4);
     transition: transform var(--in-time) ease-out, box-shadow var(--in-time) ease-out;
   }
 
