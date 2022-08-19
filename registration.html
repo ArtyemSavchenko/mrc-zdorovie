@@ -7,7 +7,8 @@
   <meta name="description"
     content="Сайт центра для реабилитации детей и взрослых с последствиями перенесённых заболеваний нервной системы и опорно-двигательного аппарата.">
   <meta name="keywords" content="реабилитация, лечение, дети">
-  <meta name="author" content="код: Артём Савченко, Роман Андруханенко, дизайн: Мартынов Дмитрий, худрук: Артём Савченко">
+  <meta name="author"
+    content="код: Артём Савченко, Роман Андруханенко, дизайн: Мартынов Дмитрий, худрук: Артём Савченко">
   <link rel="stylesheet" href="./pages/registration.css">
   <link rel="icon" href="./images/favicon.svg" sizes="any" type="image/svg+xml">
   <title>Центр Здоровья</title>
@@ -59,8 +60,11 @@
           <textarea class="form__input form__input_type_textarea" name="pacient-message" placeholder="Сообщение"
             minlength="2"></textarea>
         </fieldset>
-
-        <button class="button form__submit" type="submit">Отправить</button>
+        <label class="form__cb-label">
+          <input type="checkbox" class="form__cb">
+          Нажимая на кнопку, я даю согласие на обработку персональных данных и соглашаюсь с условиями политики конфиденциальности
+        </label>
+        <button class="button form__submit" type="submit" disabled>Отправить</button>
       </form>
 
       <div class="registration__container">

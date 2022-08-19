@@ -1,29 +1,38 @@
-import '../utils/mobile-menu.js';
-import '../vendor/email.min.js';
+import "../utils/mobile-menu.js";
+import "../vendor/email.min.js";
 
 (function () {
-  emailjs.init('user_dOgOzdD73w4Q1jEouOYa2');
+  emailjs.init("user_dOgOzdD73w4Q1jEouOYa2");
 })();
 
-window.onload = function () {
-  const form = document.getElementById('contact-form');
+const acceptCB = document.querySelector(".form__cb");
+const submitBtn = document.querySelector(".form__submit");
 
-  form.addEventListener('submit', function (evt) {
+acceptCB.addEventListener("click", () => {
+  if (acceptCB.checked) submitBtn.disabled = false;
+  else submitBtn.disabled = true;
+})
+
+window.onload = function () {
+  const form = document.getElementById("contact-form");
+
+  form.addEventListener("submit", function (evt) {
     evt.preventDefault();
 
-    this.contact_number.value = Math.random() * 100000 | 0;
+    this.contact_number.value = (Math.random() * 100000) | 0;
 
-    emailjs.sendForm('service_5vaqoms', 'template_8n9hs3f', this)
+    emailjs
+      .sendForm("service_5vaqoms", "template_8n9hs3f", this)
       .then(() => {
-        alert('Запрос выполнен успешно.');
-        console.log('SUCCESS!');
+        alert("Запрос выполнен успешно.");
+        console.log("SUCCESS!");
       })
 
       .catch((err) => {
-        alert('Что-то пошло не так.');
-        console.log('FAILED...', err);
+        alert("Что-то пошло не так.");
+        console.log("FAILED...", err);
       });
 
     form.reset();
   });
-}
+};
