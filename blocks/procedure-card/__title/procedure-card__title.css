@@ -1,12 +1,14 @@
 .procedure-card__title {
-  margin: 12px 0;
+  font-size: clamp(12px, 1vw, 16px);
+  max-width: 100%;
+  overflow: hidden;
+  margin: 1em 0;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.2;
   letter-spacing: .2em;
   text-transform: uppercase;
   background-color: #fff;
-  padding:.7em 2em;
+  padding:.7em 1em;
   box-sizing: border-box;
   min-height: 62px;
   display: flex;
