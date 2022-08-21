@@ -1,0 +1,7 @@
+.link-icon {
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+  text-decoration: none;
+  line-height: 1.25;
+}

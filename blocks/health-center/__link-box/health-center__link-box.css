@@ -1,0 +1,5 @@
+.health-center__link-box {
+  display: flex;
+  column-gap: .5em;
+  flex-wrap: wrap;
+}
