@@ -1,0 +1,21 @@
+.input-field__label {
+  position: absolute;
+  top: .7em;
+  left: 20px;
+  z-index: 1;
+  font-size: inherit;
+  color: #aaa;
+  background-color: #fff;
+  border-radius: .3em;
+  transition: all .2s;
+  cursor: text;
+  max-width: 70%;
+}
+
+.input-field__input:not(:placeholder-shown) + .input-field__label,
+.input-field__input:focus + .input-field__label {
+  font-size: .7em;
+  top: -.55em;
+  padding: 0 .5em;
+  color: currentColor;
+}

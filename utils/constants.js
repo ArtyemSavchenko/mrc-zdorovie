@@ -1,3 +1,11 @@
+export const formSelectors = {
+  formSelector: '#contact-form',
+  approvalSelector: '.form__cb',
+  inputSelector: '.input-field__input',
+  inputErrorClass: 'input-field__input_error',
+  submitBtnSelector: '.form__submit',
+}
+
 export const popupInfoSelectors = {
   popupSelector: "#popup-info",
   infoBoxSelector: ".popup__info-box",

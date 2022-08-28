@@ -1,0 +1,4 @@
+.input-field__input_error,
+.input-field__input_error:focus {
+  border: 1px solid #b00020;
+}

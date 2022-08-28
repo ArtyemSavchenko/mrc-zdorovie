@@ -1,0 +1,11 @@
+.input-field__input-error {
+  display: block;
+  box-sizing: border-box;
+  min-height: 15px;
+  max-width: 100%;
+  font-size: 12px;
+  padding: 0 1em 3px;
+  line-height: 1.2;
+  color: #b00020;
+  font-weight: 500;
+}

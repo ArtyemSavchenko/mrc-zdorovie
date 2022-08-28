@@ -1,0 +1,8 @@
+.input-field_required::after {
+  content: '*';
+  position: absolute;
+  left: .5em;
+  top: .33em;
+  font-size: inherit;
+  cursor: text;
+}

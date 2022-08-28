@@ -8,6 +8,13 @@
 @import url(../blocks/registration/__text/_type/registration__text_type_main.css);
 @import url(../blocks/registration/__text/_type/registration__text_type_or.css);
 @import url(../blocks/registration/__text/_type/registration__text_type_warning.css);
+/* input */
+@import url(../blocks/input-field/input-field.css);
+@import url(../blocks/input-field/__input/input-field__input.css);
+@import url(../blocks/input-field/__label/input-field__label.css);
+@import url(../blocks/input-field/_required/input-field_required.css);
+@import url(../blocks/input-field/__input-error/input-field__input-error.css);
+@import url(../blocks/input-field/__input/_error/input-field__input_error.css);
 
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__fieldset/form__fieldset.css);

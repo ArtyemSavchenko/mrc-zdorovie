@@ -1,0 +1,18 @@
+.input-field__input {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  min-height: 40px;
+  border: 1px solid #ddd;
+  outline: none;
+  border-radius: 5px;
+  padding: 0 20px;
+  font-size: inherit;
+  line-height: inherit;
+  width: 100%;
+}
+
+.input-field__input:focus {
+  border: 1px solid currentColor;
+}
+

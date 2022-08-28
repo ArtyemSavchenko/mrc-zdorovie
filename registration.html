@@ -46,8 +46,45 @@
       <p class="registration__text registration__text_type_main">Через данную форму вы&nbsp;можете записаться
         на&nbsp;курс лечения в&nbsp;ООО &laquo;СП&nbsp;&laquo;Центр Здоровья&raquo;</p>
 
-      <form id="contact-form" class="form">
-        <fieldset class="form__fieldset">
+      <form id="contact-form" class="form" novalidate>
+        <div class="input-field input-field_required">
+          <input class="input-field__input" id="input-name" name="name" type="text" placeholder=" " minlength="2"
+            maxlength="40" required autocomplete="off">
+          <label for="input-name" class="input-field__label">Имя</label>
+          <span class="input-field__input-error" id="input-name-error"></span>
+        </div>
+
+        <div class="input-field input-field_required">
+          <input class="input-field__input" id="input-email" name="email" type="email" placeholder=" " required
+            autocomplete="off">
+          <label for="input-email" class="input-field__label">E-mail</label>
+          <span class="input-field__input-error" id="input-email-error"></span>
+        </div>
+
+        <div class="input-field input-field_required">
+          <input class="input-field__input" id="input-tel" name="phone" type="tel" placeholder=" " required
+            autocomplete="off">
+          <label for="input-tel" class="input-field__label">Телефон</label>
+          <span class="input-field__input-error" id="input-tel-error"></span>
+        </div>
+
+        <div class="input-field input-field_required">
+          <textarea class="input-field__input form__input_type_textarea" id="input-info" placeholder=" " required
+            autocomplete="off"></textarea>
+          <label for="input-info" class="input-field__label">Данные о&nbsp;пациенте: Ф.И.О, возраст, диагноз, домашний
+            адрес</label>
+          <span class="input-field__input-error" id="input-info-error"></span>
+        </div>
+
+        <div class="input-field">
+          <textarea class="input-field__input form__input_type_textarea" id="input-message" placeholder=" "
+            autocomplete="off"></textarea>
+          <label for="input-message" class="input-field__label">Сообщение</label>
+          <span class="input-field__input-error" id="input-message-error"></span>
+        </div>
+
+
+        <!-- <fieldset class="form__fieldset">
           <input type="hidden" name="contact_number">
           <input class="form__input" name="name" type="text" placeholder="Имя*" minlength="2" maxlength="40"
             pattern="^[А-Яа-яЁёA-Za-z\s\-]+$" required>
@@ -59,10 +96,11 @@
             required></textarea>
           <textarea class="form__input form__input_type_textarea" name="pacient-message" placeholder="Сообщение"
             minlength="2"></textarea>
-        </fieldset>
+        </fieldset> -->
         <label class="form__cb-label">
           <input type="checkbox" class="form__cb">
-          Нажимая на кнопку, я даю согласие на обработку персональных данных и соглашаюсь с условиями политики конфиденциальности
+          Нажимая на кнопку, я даю согласие на обработку персональных данных и соглашаюсь с условиями политики
+          конфиденциальности
         </label>
         <button class="button form__submit" type="submit" disabled>Отправить</button>
       </form>
