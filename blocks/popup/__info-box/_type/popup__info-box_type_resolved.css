@@ -1,0 +1,6 @@
+.popup__info-box_type_resolved {
+  flex-direction: row;
+}
+.popup__info-box_type_resolved::before {
+  content: '🟢';
+}

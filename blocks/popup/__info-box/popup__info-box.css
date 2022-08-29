@@ -2,6 +2,13 @@
   max-height: 100%;
   max-width: 40vw;
   overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
+
+.popup__info-box::before {
+  flex-shrink: 0;
 }
 
 @media (max-width: 1600px) {

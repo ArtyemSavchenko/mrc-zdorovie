@@ -1,0 +1,7 @@
+.popup__info-box_type_rejected {
+  flex-direction: row;
+}
+
+.popup__info-box_type_rejected::before {
+  content: '🔴';
+}
