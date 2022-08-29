@@ -7,14 +7,6 @@ import { formSelectors } from "../utils/constants.js";
   emailjs.init("user_dOgOzdD73w4Q1jEouOYa2");
 })();
 
-// const acceptCB = document.querySelector(".form__cb");
-// const submitBtn = document.querySelector(".form__submit");
-
-// acceptCB.addEventListener("click", () => {
-//   if (acceptCB.checked) submitBtn.disabled = false;
-//   else submitBtn.disabled = true;
-// })
-
 const formValidator = new FormValidator(formSelectors);
 formValidator.enableValidation();
 

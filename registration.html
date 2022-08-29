@@ -46,24 +46,26 @@
       <p class="registration__text registration__text_type_main">Через данную форму вы&nbsp;можете записаться
         на&nbsp;курс лечения в&nbsp;ООО &laquo;СП&nbsp;&laquo;Центр Здоровья&raquo;</p>
 
-      <form id="contact-form" class="form" novalidate>
+      <form id="contact-form" class="form" novalidate autocomplete="off">
+        <p class="form__hint">Для отправки формы необходимо заполнить поля со&nbsp;звездочкой и&nbsp;согласиться на&nbsp;обработку
+          персональных данных.</p>
         <div class="input-field input-field_required">
-          <input class="input-field__input" id="input-name" name="name" type="text" placeholder=" " minlength="2"
-            maxlength="40" required autocomplete="off">
+          <input class="input-field__input" id="input-name" name="name" type="text" placeholder=" " maxlength="40"
+            required autocomplete="name">
           <label for="input-name" class="input-field__label">Имя</label>
           <span class="input-field__input-error" id="input-name-error"></span>
         </div>
 
         <div class="input-field input-field_required">
           <input class="input-field__input" id="input-email" name="email" type="email" placeholder=" " required
-            autocomplete="off">
+            autocomplete="email">
           <label for="input-email" class="input-field__label">E-mail</label>
           <span class="input-field__input-error" id="input-email-error"></span>
         </div>
 
         <div class="input-field input-field_required">
           <input class="input-field__input" id="input-tel" name="phone" type="tel" placeholder=" " required
-            autocomplete="off">
+            autocomplete="tel">
           <label for="input-tel" class="input-field__label">Телефон</label>
           <span class="input-field__input-error" id="input-tel-error"></span>
         </div>
@@ -83,23 +85,9 @@
           <span class="input-field__input-error" id="input-message-error"></span>
         </div>
 
-
-        <!-- <fieldset class="form__fieldset">
-          <input type="hidden" name="contact_number">
-          <input class="form__input" name="name" type="text" placeholder="Имя*" minlength="2" maxlength="40"
-            pattern="^[А-Яа-яЁёA-Za-z\s\-]+$" required>
-          <input class="form__input" name="email" type="email" placeholder="E-mail*" minlength="2" maxlength="40"
-            required>
-          <input class="form__input" name="phone" type="tel" placeholder="Телефон*" required>
-          <textarea class="form__input form__input_type_textarea" name="pacient-data"
-            placeholder="Данные о&nbsp;пациенте: Ф.И.О, возраст, диагноз, домашний адрес*" minlength="2"
-            required></textarea>
-          <textarea class="form__input form__input_type_textarea" name="pacient-message" placeholder="Сообщение"
-            minlength="2"></textarea>
-        </fieldset> -->
         <label class="form__cb-label">
           <input type="checkbox" class="form__cb">
-          Нажимая на кнопку, я даю согласие на обработку персональных данных и соглашаюсь с условиями политики
+          Я даю согласие на обработку персональных данных и соглашаюсь с условиями политики
           конфиденциальности
         </label>
         <button class="button form__submit" type="submit" disabled>Отправить</button>

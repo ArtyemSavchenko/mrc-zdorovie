@@ -8,7 +8,7 @@
 @import url(../blocks/registration/__text/_type/registration__text_type_main.css);
 @import url(../blocks/registration/__text/_type/registration__text_type_or.css);
 @import url(../blocks/registration/__text/_type/registration__text_type_warning.css);
-/* input */
+
 @import url(../blocks/input-field/input-field.css);
 @import url(../blocks/input-field/__input/input-field__input.css);
 @import url(../blocks/input-field/__label/input-field__label.css);
@@ -22,6 +22,8 @@
 @import url(../blocks/form/__input/_type/form__input_type_textarea.css);
 @import url(../blocks/form/__submit/form__submit.css);
 @import url(../blocks/form/__cb-label/form__cb-label.css);
+@import url(../blocks/form/__cb/form__cb.css);
+@import url(../blocks/form/__hint/form__hint.css);
 
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/contacts/__link/contacts__link.css);

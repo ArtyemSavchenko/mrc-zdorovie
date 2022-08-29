@@ -30,7 +30,7 @@
 
 .button:disabled {
   background-color: transparent;
-  box-shadow: 0 0 0 2px #ddd;
+  box-shadow: 0 0 0 1px #ddd;
   color: #ddd;
   cursor: auto;
   transition: transform var(--in-time) ease-out,

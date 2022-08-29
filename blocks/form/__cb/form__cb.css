@@ -1,0 +1,24 @@
+.form__cb{
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 1em;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  margin: 0;
+  appearance: none;
+  background-color: #fff;
+  background-size: 300% 300%;
+  border-radius: .2em;
+  border: 1px solid #ddd;
+  transition: var(--out-time);
+}
+
+.form__cb:checked {
+  border: 1px solid var(--accent-color);
+  background-position: center;
+  background-size: 80% 80%;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg' xmlns:svg='http://www.w3.org/2000/svg'%3E%3Cpath d='m466.97,120.21l-261.35,311.14a31.12,31.12 0 0 1 -23.34,11.1l-0.53,0a31.12,31.12 0 0 1 -23.13,-10.31l-112.01,-124.45a31.12,31.12 0 1 1 46.24,-41.62l88.07,97.86l238.39,-283.74a31.12,31.12 0 0 1 47.64,40.02l0,0.01l0.02,-0.01z' fill='%23e25915'/%3E%3C/svg%3E");
+  transition: var(--in-time);
+}
