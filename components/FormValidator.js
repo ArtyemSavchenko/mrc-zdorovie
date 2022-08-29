@@ -5,7 +5,6 @@ export default class FormValidator {
     this._inputsList = Array.from(this._formEl.querySelectorAll(inputSelector));
     this._inputErrorClass = inputErrorClass;
     this._submitButtonEl = this._formEl.querySelector(submitBtnSelector);
-    // this._errorTimeout;
   }
 
   _toggleButtonSubmitState() {
@@ -29,12 +28,6 @@ export default class FormValidator {
   _setEventListeners() {
     this._inputsList.forEach(inputEl => {
       inputEl.addEventListener('input', () => {
-        // clearTimeout(this._errorTimeout);
-        // this._errorTimeout = setTimeout(() => {
-        //   inputEl.validity.valid
-        //     ? this._hideInputError(inputEl)
-        //     : this._showInputError(inputEl);
-        //   }, 3000);
         inputEl.validity.valid
           ? this._hideInputError(inputEl)
           : this._showInputError(inputEl);

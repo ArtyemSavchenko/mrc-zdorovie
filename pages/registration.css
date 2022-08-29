@@ -2,6 +2,10 @@
 @import url(../blocks/box-shadow/box-shadow.css);
 @import url(../blocks/button/button.css);
 
+@import url(../blocks/spinner/spinner.css);
+@import url(../blocks/spinner/__spinner-el/spinner__spinner-el.css);
+@import url(../blocks/spinner/_active/spinner_active.css);
+
 @import url(../blocks/registration/registration.css);
 @import url(../blocks/registration/__container/registration__container.css);
 @import url(../blocks/registration/__text/registration__text.css);
@@ -17,13 +21,12 @@
 @import url(../blocks/input-field/__input/_error/input-field__input_error.css);
 
 @import url(../blocks/form/form.css);
-@import url(../blocks/form/__fieldset/form__fieldset.css);
 @import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/form/__input/_type/form__input_type_textarea.css);
+@import url(../blocks/form/__hint/form__hint.css);
 @import url(../blocks/form/__submit/form__submit.css);
 @import url(../blocks/form/__cb-label/form__cb-label.css);
 @import url(../blocks/form/__cb/form__cb.css);
-@import url(../blocks/form/__hint/form__hint.css);
 
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/contacts/__link/contacts__link.css);

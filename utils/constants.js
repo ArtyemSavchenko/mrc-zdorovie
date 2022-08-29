@@ -6,6 +6,12 @@ export const formSelectors = {
   submitBtnSelector: '.form__submit',
 }
 
+export const spinnerSelectors = {
+  id: '#spinner-form',
+  textSelector: '.spinner__text',
+  activeClass: 'spinner_active'
+}
+
 export const popupInfoSelectors = {
   popupSelector: "#popup-info",
   infoBoxSelector: ".popup__info-box",
