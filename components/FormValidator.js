@@ -7,7 +7,7 @@ export default class FormValidator {
     this._submitButtonEl = this._formEl.querySelector(submitBtnSelector);
   }
 
-  _toggleButtonSubmitState() {
+  toggleButtonSubmitState() {
     if(this._inputsList.some(inputEl => !inputEl.validity.valid) || !this._approvalEl.checked)
       this._submitButtonEl.disabled = true;
     else this._submitButtonEl.disabled = false;
@@ -32,16 +32,16 @@ export default class FormValidator {
           ? this._hideInputError(inputEl)
           : this._showInputError(inputEl);
 
-        this._toggleButtonSubmitState();
+        this.toggleButtonSubmitState();
       });
     });
     this._approvalEl.addEventListener('click', () => {
-      this._toggleButtonSubmitState();
+      this.toggleButtonSubmitState();
     })
   }
 
   enableValidation() {
     this._setEventListeners();
-    this._toggleButtonSubmitState();
+    this.toggleButtonSubmitState();
   }
 }

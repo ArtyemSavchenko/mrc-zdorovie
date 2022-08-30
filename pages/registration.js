@@ -46,6 +46,7 @@ form.addEventListener("submit", (e) => {
           resolved: true,
         });
         form.reset();
+        formValidator.toggleButtonSubmitState();
       } else return Promise.reject(res.status);
     })
     .catch((err) =>
