@@ -47,20 +47,14 @@
         на&nbsp;курс лечения в&nbsp;ООО &laquo;СП&nbsp;&laquo;Центр Здоровья&raquo;</p>
 
       <form id="contact-form" class="form" novalidate autocomplete="off">
-        <p class="form__hint">Для отправки формы необходимо заполнить поля со&nbsp;звездочкой и&nbsp;согласиться на&nbsp;обработку
+        <p class="form__hint">Для отправки формы необходимо заполнить поля со&nbsp;звездочкой и&nbsp;согласиться
+          на&nbsp;обработку
           персональных данных.</p>
         <div class="input-field input-field_required">
           <input class="input-field__input" id="input-name" name="name" type="text" placeholder=" " maxlength="40"
             required autocomplete="name">
           <label for="input-name" class="input-field__label">Имя</label>
           <span class="input-field__input-error" id="input-name-error"></span>
-        </div>
-
-        <div class="input-field input-field_required">
-          <input class="input-field__input" id="input-email" name="email" type="email" placeholder=" " required
-            autocomplete="email">
-          <label for="input-email" class="input-field__label">E-mail</label>
-          <span class="input-field__input-error" id="input-email-error"></span>
         </div>
 
         <div class="input-field input-field_required">
@@ -71,16 +65,23 @@
         </div>
 
         <div class="input-field input-field_required">
-          <textarea class="input-field__input form__input_type_textarea" id="input-info" placeholder=" " required
-            autocomplete="off"></textarea>
+          <input class="input-field__input" id="input-email" name="email" type="email" placeholder=" " required
+            autocomplete="email">
+          <label for="input-email" class="input-field__label">E-mail</label>
+          <span class="input-field__input-error" id="input-email-error"></span>
+        </div>
+
+        <div class="input-field input-field_required">
+          <textarea class="input-field__input form__input_type_textarea" id="input-info" name="pacientInfo"
+            placeholder=" " required autocomplete="off"></textarea>
           <label for="input-info" class="input-field__label">Данные о&nbsp;пациенте: Ф.И.О, возраст, диагноз, домашний
             адрес</label>
           <span class="input-field__input-error" id="input-info-error"></span>
         </div>
 
         <div class="input-field">
-          <textarea class="input-field__input form__input_type_textarea" id="input-message" placeholder=" "
-            autocomplete="off"></textarea>
+          <textarea class="input-field__input form__input_type_textarea" id="input-message" name="pacientMessage"
+            placeholder=" " autocomplete="off"></textarea>
           <label for="input-message" class="input-field__label">Сообщение</label>
           <span class="input-field__input-error" id="input-message-error"></span>
         </div>

@@ -25,6 +25,15 @@ export const popupImgSelectors = {
 };
 export const documentPhotoSelector = ".documents__photo";
 export const procedureCardSelector = ".procedure-card";
+export const registrationFormSelector = '#contact-form';
+export const formInputSelector = '.input-field__input';
+
+export const apiParams = {
+  serviсeId: 'service_7g2ou2j',
+  templateId: 'template_2z5ltxc',
+  userId: 'he37NdbQEPcTkrowP', //publicKey
+  apiUrl: 'https://api.emailjs.com/api/v1.0/email/send',
+}
 
 const popupTags = {
   openInfoText: '<p class="popup__info-text">',
