@@ -27,5 +27,5 @@ Content:
 Данные пациента: {{pacientInfo}}  
 Сообщение: {{pacientMessage}}
 ```
-
+---
 [`Ссылка на проект`](https://artyemsavchenko.github.io/mrc-zdorovie/index.html)
