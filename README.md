@@ -1,4 +1,4 @@
-# [Центр Здоровья](https://artyemsavchenko.github.io/mrc-zdorovie/index.html)
+# <a href="https://artyemsavchenko.github.io/mrc-zdorovie/index.html" target="_blank">Центр Здоровья</a>
 
 ## Благотворительный проект для Таганрогского социального предприятия "Центр Здоровья".
 `HTML5` `CSS3` `JS ES6`  
@@ -29,4 +29,4 @@ Content:
 Сообщение: {{pacientMessage}}
 ```
 ---
-[`Ссылка на проект`](https://artyemsavchenko.github.io/mrc-zdorovie/index.html)
+<a href="https://artyemsavchenko.github.io/mrc-zdorovie/index.html" target="_blank">`Демо`</a>
