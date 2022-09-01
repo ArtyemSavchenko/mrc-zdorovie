@@ -8,10 +8,10 @@ export default class PopupInfo extends Popup {
     this._rejectedAlertClass = rejectedAlertClass;
   }
 
-  open({ infoHtml, resolved = false, rejected = false }) {
+  open(infoHtml, status = '') {
     this._infoBoxEl.innerHTML = infoHtml;
-    if(resolved) this._infoBoxEl.classList.add(this._resolvedAlertClass);
-    if(rejected) this._infoBoxEl.classList.add(this._rejectedAlertClass);
+    if(status === 'resolved') this._infoBoxEl.classList.add(this._resolvedAlertClass);
+    if(status === 'rejected') this._infoBoxEl.classList.add(this._rejectedAlertClass);
     super.open();
   }
 

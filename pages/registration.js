@@ -41,16 +41,13 @@ form.addEventListener("submit", (e) => {
     .sendMessage(sendingData)
     .then((res) => {
       if (res.ok) {
-        popupAlert.open({
-          infoHtml: `Ваши данные успешно отправлены.`,
-          resolved: true,
-        });
+        popupAlert.open(`Ваши данные успешно отправлены.`, 'resolved');
         form.reset();
         formValidator.toggleButtonSubmitState();
       } else return Promise.reject(res.status);
     })
     .catch((err) =>
-      popupAlert.open({ infoHtml: `Произошла ошибка ${err}.`, rejected: true })
+      popupAlert.open(`Произошла ошибка ${err}.`, 'rejected')
     )
     .finally(() => {
       loadingSpinner.close();

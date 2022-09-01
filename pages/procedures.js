@@ -15,6 +15,6 @@ const proceduresCards = Array.from(document.querySelectorAll(procedureCardSelect
 proceduresCards.forEach((cardEl) => {
   new ProcedureCard(cardEl, () => {
     const infoHtml = proceduresInfos.find(el => el.name === cardEl.id).contentHtml;
-    popup.open({ infoHtml });
+    popup.open(infoHtml);
   });
 });
