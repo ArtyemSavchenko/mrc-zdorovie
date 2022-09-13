@@ -3,5 +3,10 @@
 }
 
 .popup__info-box_type_rejected::before {
-  content: '🔴';
+  content: '';
+  width: 1em;
+  height: 1em;
+  display: block;
+  border-radius: 50%;
+  background-color: indianred;
 }
