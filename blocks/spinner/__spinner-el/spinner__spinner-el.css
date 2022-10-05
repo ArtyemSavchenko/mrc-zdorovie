@@ -1,7 +1,6 @@
 @keyframes rotate-spinner {
   0% {
     border-radius: 38% 62% 55% 45% / 42% 55% 45% 58%;
-    transform: rotate(var(--start-deg));
   }
   10% {
     border-radius: 29% 71% 70% 30% / 30% 30% 70% 70%;
@@ -32,7 +31,7 @@
   }
   100% {
     border-radius: 38% 62% 55% 45% / 42% 55% 45% 58%;
-    transform: rotate(calc(var(--start-deg) + 360deg));
+    border: var(--border);
   }
 }
 
@@ -40,15 +39,16 @@
   --shadow: 0 0 15px currentColor,
     0 0 15px currentColor inset;
   --border: 2px solid currentColor;
-  --rotation: rotate-spinner linear infinite 20s;
+  --rotation: rotate-spinner linear infinite 15s;
   color: yellow;
-  width: 33%;
+  padding: 2em;
   aspect-ratio: 1;
   border: var(--border);
   box-shadow: var(--shadow);
   animation: var(--rotation);
-  --start-deg: 0deg;
   position: relative;
+  display: grid;
+  place-items: center;
 }
 
 .spinner__spinner-el::before {
@@ -64,7 +64,7 @@
   border: var(--border);
   box-shadow: var(--shadow);
   animation: var(--rotation);
-  --start-deg: 45deg;
+  transform: rotate(45deg);
 }
 .spinner__spinner-el::after {
   content: '';
@@ -79,5 +79,5 @@
   border: var(--border);
   box-shadow: var(--shadow);
   animation: var(--rotation);
-  --start-deg: -45deg;
+  transform: rotate(-45deg);
 }

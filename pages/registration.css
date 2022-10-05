@@ -4,6 +4,7 @@
 
 @import url(../blocks/spinner/spinner.css);
 @import url(../blocks/spinner/__spinner-el/spinner__spinner-el.css);
+@import url(../blocks/spinner/__text/spinner__text.css);
 @import url(../blocks/spinner/_active/spinner_active.css);
 
 @import url(../blocks/registration/registration.css);
