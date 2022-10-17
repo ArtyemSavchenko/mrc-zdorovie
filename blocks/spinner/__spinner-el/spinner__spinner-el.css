@@ -31,7 +31,6 @@
   }
   100% {
     border-radius: 38% 62% 55% 45% / 42% 55% 45% 58%;
-    border: var(--border);
   }
 }
 
