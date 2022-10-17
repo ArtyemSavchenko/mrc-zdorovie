@@ -11,6 +11,7 @@
 @import url(../blocks/procedure-card/__img/procedure-card__img.css);
 @import url(../blocks/procedure-card/__title/procedure-card__title.css);
 @import url(../blocks/procedure-card/__more-info-btn/procedure-card__more-info-btn.css);
+@import url(../blocks/procedure-card/__description/procedure-card__description.css);
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__close-btn/popup__close-btn.css);

@@ -1,9 +1,8 @@
 import '../utils/mobile-menu.js';
-
 import {
   popupInfoSelectors,
-  proceduresInfos,
   procedureCardSelector,
+  procedureDescriptionSelector,
   proceduresPopupSelector
 } from "../utils/constants.js";
 import PopupInfo from "../components/PopupInfo.js";
@@ -13,8 +12,7 @@ const popup = new PopupInfo({...popupInfoSelectors, popupSelector: proceduresPop
 
 const proceduresCards = Array.from(document.querySelectorAll(procedureCardSelector));
 proceduresCards.forEach((cardEl) => {
-  new ProcedureCard(cardEl, () => {
-    const infoHtml = proceduresInfos.find(el => el.name === cardEl.id).contentHtml;
+  new ProcedureCard(cardEl, procedureDescriptionSelector, (infoHtml) => {
     popup.open(infoHtml);
   });
 });
