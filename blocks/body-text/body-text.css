@@ -1,0 +1,6 @@
+.body-text {
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 16px;
+}

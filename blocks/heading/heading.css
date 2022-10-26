@@ -1,0 +1,6 @@
+.heading {
+  font-family: var(--main-font-family);
+  font-weight: 600;
+  line-height: 1.2;
+  font-size: 20px;
+}
