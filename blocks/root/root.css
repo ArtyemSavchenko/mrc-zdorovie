@@ -3,6 +3,8 @@
 
 @import url(../page/page.css);
 @import url(../wrapper/wrapper.css);
+@import url(../link-icon/link-icon.css);
+@import url(../link-icon/__icon/link-icon__icon.css);
 
 @import url(../body-text/body-text.css);
 @import url(../body-text/_size_small/body-text_size_small.css);

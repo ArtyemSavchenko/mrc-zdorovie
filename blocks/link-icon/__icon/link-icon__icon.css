@@ -4,4 +4,5 @@
   color: inherit;
   fill: currentColor;
   cursor: inherit;
+  flex-shrink: 0;
 }
