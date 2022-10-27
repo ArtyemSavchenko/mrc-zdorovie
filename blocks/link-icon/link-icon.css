@@ -3,6 +3,7 @@
   align-items: center;
   column-gap: .3em;
   text-decoration: none;
+  color: inherit;
 }
 
 .link-icon:hover {

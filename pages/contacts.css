@@ -1,13 +1,10 @@
 @import url(../blocks/root/root.css);
 
 @import url(../blocks/our-contacts/our-contacts.css);
-@import url(../blocks/our-contacts/__container/our-contacts__container.css);
-@import url(../blocks/our-contacts/__link/our-contacts__link.css);
-@import url(../blocks/our-contacts/__link/_type/our-contacts__link_type_contacts.css);
-@import url(../blocks/our-contacts/__list/our-contacts__list.css);
-@import url(../blocks/our-contacts/__social-logo/our-contacts__social-logo.css);
-@import url(../blocks/our-contacts/__social-logo/_type/our-contacts__social-logo_type_facebook.css);
-@import url(../blocks/our-contacts/__social-logo/_type/our-contacts__social-logo_type_other.css);
-@import url(../blocks/our-contacts/__title/our-contacts__title.css);
+@import url(../blocks/our-contacts/__contact-list/our-contacts__contact-list.css);
+
+@import url(../blocks/contact-list/contact-list.css);
+@import url(../blocks/contact-list/__heading/contact-list__heading.css);
+@import url(../blocks/contact-list/__item-margin-bottom/contact-list__item-margin-bottom.css);
 
 @import url(../blocks/yandex-map/yandex-map.css);

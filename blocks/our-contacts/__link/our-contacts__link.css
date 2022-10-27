@@ -1,7 +1,0 @@
-.our-contacts__link {
-  display: flex;
-  color: var(--dark-text-color);
-  text-decoration: none;
-  align-items: center;
-  /* transition: .2s linear; */
-}
