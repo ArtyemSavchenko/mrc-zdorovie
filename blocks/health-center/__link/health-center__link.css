@@ -1,5 +1,6 @@
 .health-center__link {
   color: inherit;
+  text-decoration: none;
 }
 
 .health-center__link:hover {

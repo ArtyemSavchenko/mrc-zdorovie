@@ -1,5 +1,4 @@
 .contacts__link {
-  white-space: nowrap;
   font-weight: bold;
   color: var(--dark-text-color);
   transition: .2s linear;
