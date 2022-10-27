@@ -1,11 +1,6 @@
-.link-icon {
+.text-icon {
   display: flex;
   align-items: center;
   column-gap: .3em;
   text-decoration: none;
-}
-
-.link-icon:hover {
-  cursor: pointer;
-  color: var(--accent-color);
 }

@@ -3,10 +3,5 @@
   color: var(--dark-text-color);
   text-decoration: none;
   align-items: center;
-  transition: .2s linear;
-}
-
-.our-contacts__link:hover {
-  cursor: pointer;
-  opacity: .5;
+  /* transition: .2s linear; */
 }

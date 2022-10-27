@@ -6,6 +6,8 @@
 @import url(../link-icon/link-icon.css);
 @import url(../link-icon/__icon/link-icon__icon.css);
 @import url(../link-icon/_inline/link-icon_inline.css);
+@import url(../text-icon/text-icon.css);
+@import url(../text-icon/__icon/text-icon__icon.css);
 
 @import url(../body-text/body-text.css);
 @import url(../body-text/_size_small/body-text_size_small.css);

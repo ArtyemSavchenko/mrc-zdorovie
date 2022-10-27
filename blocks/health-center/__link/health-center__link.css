@@ -3,10 +3,6 @@
   text-decoration: none;
 }
 
-.health-center__link:hover {
-  color: var(--accent-color);
-}
-
 @media (max-width: 340px) {
   .health-center__link {
     font-size: 14px;
