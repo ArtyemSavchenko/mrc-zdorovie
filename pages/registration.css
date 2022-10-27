@@ -12,7 +12,6 @@
 @import url(../blocks/registration/__text/registration__text.css);
 @import url(../blocks/registration/__text/_type/registration__text_type_main.css);
 @import url(../blocks/registration/__text/_type/registration__text_type_or.css);
-@import url(../blocks/registration/__text/_type/registration__text_type_warning.css);
 
 @import url(../blocks/input-field/input-field.css);
 @import url(../blocks/input-field/__input/input-field__input.css);
@@ -33,7 +32,6 @@
 @import url(../blocks/contacts/__link/contacts__link.css);
 @import url(../blocks/contacts/__link/_type/contacts__link_type_contact.css);
 @import url(../blocks/contacts/__link/_type/contacts__link_type_details.css);
-@import url(../blocks/contacts/__text/contacts__text.css);
 @import url(../blocks/contacts/_size/contacts_size_middle.css);
 @import url(../blocks/contacts/_size/contacts_size_small.css);
 
@@ -48,6 +46,8 @@
 @import url(../blocks/healing-calendar/__text/healing-calendar__text.css);
 
 @import url(../blocks/warning-card/warning-card.css);
+@import url(../blocks/warning-card/__heading/warning-card__heading.css);
+@import url(../blocks/warning-card/__paragraph/warning-card__paragraph.css);
 @import url(../blocks/warning-card/__card/warning-card__card.css);
 @import url(../blocks/warning-card/__list/warning-card__list.css);
 @import url(../blocks/warning-card/__logo/warning-card__logo.css);
