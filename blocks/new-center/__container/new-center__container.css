@@ -1,28 +1,15 @@
 .new-center__container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
-  margin: 20px 40px;
-  padding: 20px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  gap: 8px;
 }
 
-@media all and (max-width: 1024px) {
-	.new-center__container {
-    margin: 15px 40px 20px;
-    padding: 15px;
-  }
-}
-
-@media all and (max-width: 1023px) {
-	.new-center__container {
-    margin: 15px 20px 20px;
-  }
-}
-
-@media all and (max-width: 768px) {
-	.new-center__container {
-    margin: 10px 20px 20px;
-    padding: 10px;
+@media(min-width: 768px) {
+  .new-center__container {
+    flex-direction: row;
   }
 }

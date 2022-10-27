@@ -1,40 +1,5 @@
 .new-center__paragraph {
-  font-size: 23.44px;
-  line-height: 29px;
-  border-radius: 5px;
-}
-
-@media all and (max-width: 1024px) {
-	.new-center__paragraph {
-    font-size: 17.44px;
-    line-height: 21px;
-  }
-}
-
-@media all and (max-width: 834px) {
-	.new-center__paragraph {
-    font-size: 16.44px;
-    line-height: 20px;
-  }
-}
-
-@media all and (max-width: 768px) {
-	.new-center__paragraph {
-    font-size: 15.44px;
-    line-height: 19px;
-  }
-}
-
-@media all and (max-width: 579px) {
-	.new-center__paragraph {
-    font-size: 11.44px;
-    line-height: 14px;
-  }
-}
-
-@media all and (max-width: 375px) {
-	.new-center__paragraph {
-    font-size: 10.44px;
-    line-height: 13px;
-  }
+  margin: 0 auto;
+  padding: 20px 10px;
+  max-width: 1024px;
 }
