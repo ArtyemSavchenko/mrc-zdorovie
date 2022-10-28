@@ -1,4 +1,3 @@
-import '../utils/mobile-menu.js';
 import {
   popupInfoSelectors,
   procedureCardSelector,

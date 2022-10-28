@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./pages/registration.css">
   <link rel="icon" href="./images/favicon.svg" sizes="any" type="image/svg+xml">
   <title>Центр Здоровья</title>
+  <script type="module" src="./scripts/root-utils.js" defer></script>
   <script type="module" src="./pages/registration.js" defer></script>
 </head>
 
@@ -157,7 +158,7 @@
       <h2 class="headline">График курсов лечения</h2>
       <div class="healing__content">
         <div class="healing-calendar box-shadow healing__healing-calendar">
-          <h3 class="healing-calendar__heading">на 2022 год:</h3>
+          <h3 class="healing-calendar__heading">на <span class="footer__actual-year"></span> год:</h3>
           <p class="healing-calendar__subheading">двухнедельные курсы лечения</p>
           <div class="healing-calendar__table">
             <p class="healing-calendar__text">10.01 — 21.01</p>
@@ -300,7 +301,7 @@
 
     </div>
     <p class="footer__text wrapper">
-      2015 — 2022, ООО &laquo;СП&nbsp;&laquo;Центр Здоровья&raquo; Противопоказания: острый
+      2015 — <span class="footer__actual-year"></span>, ООО &laquo;СП&nbsp;&laquo;Центр Здоровья&raquo; Противопоказания: острый
       период всех заболеваний, заболевания крови, онкологические заболевания, инфекционные заболевания.
     </p>
   </footer>

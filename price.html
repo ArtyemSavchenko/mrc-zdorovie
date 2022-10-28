@@ -7,11 +7,12 @@
   <meta name="description"
     content="Сайт центра для реабилитации детей и взрослых с последствиями перенесённых заболеваний нервной системы и опорно-двигательного аппарата.">
   <meta name="keywords" content="реабилитация, лечение, дети">
-  <meta name="author" content="код: Артём Савченко, Роман Андруханенко, дизайн: Мартынов Дмитрий, худрук: Артём Савченко">
+  <meta name="author"
+    content="код: Артём Савченко, Роман Андруханенко, дизайн: Мартынов Дмитрий, худрук: Артём Савченко">
   <link rel="stylesheet" href="./pages/price.css">
   <link rel="icon" href="./images/favicon.svg" sizes="any" type="image/svg+xml">
   <title>Центр Здоровья</title>
-  <script type="module" src="./pages/price.js" defer></script>
+  <script type="module" src="./scripts/root-utils.js" defer></script>
 </head>
 
 <body class="page">
@@ -44,7 +45,7 @@
 
       <div class="pricelist">
         <table class="pricelist__table">
-          <caption class="pricelist__caption">Цены от 25.02.2022г.</caption>
+          <caption class="pricelist__caption">Цены от 25.02.<span class="footer__actual-year"></span>г.</caption>
           <thead>
             <tr>
               <th class="pricelist__header pricelist__header_left-side">Наименования процедур</th>
@@ -783,7 +784,8 @@
 
     </div>
     <p class="footer__text wrapper">
-      2015 — 2022, ООО &laquo;СП&nbsp;&laquo;Центр Здоровья&raquo; Противопоказания: острый
+      2015 — <span class="footer__actual-year">222</span>, ООО &laquo;СП&nbsp;&laquo;Центр Здоровья&raquo;
+      Противопоказания: острый
       период всех заболеваний, заболевания крови, онкологические заболевания, инфекционные заболевания.
     </p>
   </footer>

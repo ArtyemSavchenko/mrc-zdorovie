@@ -1,5 +1,3 @@
-import '../utils/mobile-menu.js';
-
 import { popupImgSelectors, documentPhotoSelector } from '../utils/constants.js';
 import PopupImg from '../components/PopupImage.js';
 

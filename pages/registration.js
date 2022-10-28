@@ -1,4 +1,3 @@
-import "../utils/mobile-menu.js";
 import FormValidator from "../components/FormValidator.js";
 import {
   formSelectors,
