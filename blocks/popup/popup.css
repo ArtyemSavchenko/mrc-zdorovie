@@ -4,13 +4,13 @@
   opacity: 0;
   display: grid;
   place-content: center;
-  top: 0;
-  left: 0;
-  right: 0;
+  top: 100%;
+  left: 50%;
+  right: 50%;
   bottom: 0;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, .7);
   backdrop-filter: blur(20px);
   z-index: 7;
-  transition: opacity .3s, visibility 0s .3s;
+  transition: opacity .3s, visibility 0s .3s, top .3s, left .3s, bottom .3s, right .3s;
 }
