@@ -1,7 +1,7 @@
 .link-icon {
   display: flex;
   align-items: center;
-  column-gap: .3em;
+  column-gap: .16em;
   text-decoration: none;
   color: inherit;
 }

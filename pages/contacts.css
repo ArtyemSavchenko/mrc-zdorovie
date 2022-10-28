@@ -4,6 +4,7 @@
 @import url(../blocks/our-contacts/__contact-list/our-contacts__contact-list.css);
 
 @import url(../blocks/contact-list/contact-list.css);
+@import url(../blocks/contact-list/__flex-box/contact-list__flex-box.css);
 @import url(../blocks/contact-list/__heading/contact-list__heading.css);
 @import url(../blocks/contact-list/__item-margin-bottom/contact-list__item-margin-bottom.css);
 
