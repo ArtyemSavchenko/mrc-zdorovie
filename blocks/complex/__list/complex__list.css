@@ -1,22 +1,4 @@
 .complex__list {
-  padding-left: 22px;
+  padding-left: 1em;
   margin: 0;
-}
-
-@media all and (max-width: 1439px) {
-	.complex__list {
-    padding-left: 20px;
-  }
-}
-
-@media all and (max-width: 1023px) {
-	.complex__list {
-    padding-left: 17px;
-  }
-}
-
-@media all and (max-width: 374px) {
-	.complex__list {
-    padding-left: 16px;
-  }
 }

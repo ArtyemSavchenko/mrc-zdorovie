@@ -29,11 +29,3 @@
     margin-top: -3px;
   }
 }
-
-@media all and (max-width: 381px) {
-	.intro__middle-title {
-    font-size: 14.44px;
-    line-height: 18px;
-    margin-top: -4px;
-  }
-}

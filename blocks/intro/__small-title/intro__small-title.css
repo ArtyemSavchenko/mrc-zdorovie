@@ -3,49 +3,13 @@
   font-weight: 500;
   max-width: 600px;
   font-size: 21.44px;
-  line-height: 26px;
+  line-height: 1.2;
   text-align: center;
 }
 
-@media all and (max-width: 1369px) {
-	.intro__small-title {
-    max-width: 500px;
-  }
-}
-
 @media all and (max-width: 1164px) {
-	.intro__small-title {
-    max-width: 465px;
-    font-size: 16.44px;
-    line-height: 20px;
-  }
-}
-
-@media all and (max-width: 968px) {
-	.intro__small-title {
-    max-width: 329px;
-    font-size: 13.44px;
-    line-height: 16px;
-  }
-}
-
-@media all and (max-width: 767px) {
-	.intro__small-title {
-    max-width: 100%;
-    text-align: center;
-  }
-}
-
-@media all and (max-width: 480px) {
-	.intro__small-title {
-    font-size: 13.44px;
-    line-height: 16px;
-  }
-}
-
-@media all and (max-width: 381px) {
-	.intro__small-title {
-    font-size: 11.44px;
-    line-height: 14px;
+  .intro__small-title {
+    max-width: 400px;
+    font-size: 14px;
   }
 }

@@ -2,7 +2,7 @@
   flex-direction: row-reverse;
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 860px) {
   .complex__card_reversed {
     flex-direction: column-reverse;
   }

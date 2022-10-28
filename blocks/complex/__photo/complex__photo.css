@@ -1,15 +1,10 @@
 .complex__photo {
-  width: 63.96%;
+  max-width: 53%;
+  aspect-ratio: 1842/1068;
 }
 
-@media all and (max-width: 1439px) {
-	.complex__photo {
-    width: 50%;
-  }
-}
-
-@media all and (max-width: 767px) {
-	.complex__photo {
-    width: 100%;
+@media all and (max-width: 860px) {
+  .complex__photo {
+    max-width: 100%;
   }
 }
