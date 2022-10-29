@@ -10,6 +10,7 @@
   bottom: 0;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, .7);
+  box-shadow: 0 0 5px 5px rgba(0 0 0 / .7);
   backdrop-filter: blur(20px);
   z-index: 7;
   transition: opacity .3s, visibility 0s .3s, top .3s, left .3s, bottom .3s, right .3s;
