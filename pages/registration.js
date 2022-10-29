@@ -7,7 +7,7 @@ import {
   registrationFormSelector,
   formInputSelector,
 } from "../utils/constants.js";
-import { apiParams } from '../utils/api-rapams.js';
+import { apiParams } from '../utils/api-params.js';
 import Spinner from "../components/Spinner.js";
 import PopupInfo from "../components/PopupInfo.js";
 import Api from "../components/Api.js";
