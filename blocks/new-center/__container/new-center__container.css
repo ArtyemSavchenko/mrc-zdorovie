@@ -5,7 +5,8 @@
   align-items: center;
   margin: 0 auto;
   padding: 20px 10px;
-  gap: 8px;
+  column-gap: 12px;
+  row-gap: 8px;
 }
 
 @media(min-width: 768px) {
