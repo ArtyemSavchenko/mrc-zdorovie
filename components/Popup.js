@@ -19,13 +19,15 @@ export default class Popup {
   }
 
   _handleEscClose(evt) {
-    if (evt.key === 'Escape')
-      this.close();
+    if (evt.key === 'Escape') this.close();
   }
 
   _setEventListeners() {
-    this._popupEl.addEventListener('click', evt => {
-      if (evt.target === evt.currentTarget || evt.target.classList.contains(this.closeBtnClass))
+    this._popupEl.addEventListener('click', (evt) => {
+      if (
+        evt.target === evt.currentTarget ||
+        evt.target.classList.contains(this.closeBtnClass)
+      )
         this.close();
     });
   }

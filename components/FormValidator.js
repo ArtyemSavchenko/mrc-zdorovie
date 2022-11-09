@@ -24,7 +24,7 @@ export default class FormValidator {
 
   _hideInputError(inputEl) {
     const errorEl = this._formEl.querySelector(`#${inputEl.id}-error`);
-    errorEl.textContent = "";
+    errorEl.textContent = '';
     inputEl.classList.remove(this._inputErrorClass);
   }
 
@@ -36,19 +36,18 @@ export default class FormValidator {
 
   _setEventListeners() {
     this._inputsList.forEach((inputEl) => {
-      inputEl.addEventListener("blur", () => {
+      inputEl.addEventListener('blur', () => {
         inputEl.validity.valid
           ? this._hideInputError(inputEl)
           : this._showInputError(inputEl);
         this.toggleButtonSubmitState();
       });
-      inputEl.addEventListener("input", () => {
-        if(inputEl.validity.valid)
-          this._hideInputError(inputEl);
+      inputEl.addEventListener('input', () => {
+        if (inputEl.validity.valid) this._hideInputError(inputEl);
         this.toggleButtonSubmitState();
       });
     });
-    this._approvalEl.addEventListener("click", () => {
+    this._approvalEl.addEventListener('click', () => {
       this.toggleButtonSubmitState();
     });
   }

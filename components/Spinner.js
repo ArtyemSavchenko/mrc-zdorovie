@@ -1,10 +1,10 @@
 export default class Spinner {
   constructor({
     id = '',
-    textSelector = ".spinner__text",
-    activeClass = "spinner_active",
+    textSelector = '.spinner__text',
+    activeClass = 'spinner_active',
   }) {
-    if(id) {
+    if (id) {
       this._spinnerEl = document.querySelector(id);
       this._textEl = this._spinnerEl.querySelector(textSelector);
     } else {

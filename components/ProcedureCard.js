@@ -7,6 +7,8 @@ export default class ProcedureCard {
   }
 
   _setEventListener() {
-    this._cardEl.addEventListener('click', () => { this._handlerClick(this._descriptionHtml); }); 
+    this._cardEl.addEventListener('click', () => {
+      this._handlerClick(this._descriptionHtml);
+    });
   }
 }

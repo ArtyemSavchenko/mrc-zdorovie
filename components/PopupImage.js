@@ -1,4 +1,4 @@
-import Popup from "./Popup.js";
+import Popup from './Popup.js';
 
 export default class PopupImage extends Popup {
   constructor({ popupSelector, imgElSelector }) {
@@ -15,8 +15,8 @@ export default class PopupImage extends Popup {
   close() {
     super.close();
     setTimeout(() => {
-      this._popupImgEl.src = "./";
-      this._popupImgEl.alt = "";
+      this._popupImgEl.src = './';
+      this._popupImgEl.alt = '';
     }, 300);
   }
 }

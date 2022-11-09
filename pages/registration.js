@@ -1,4 +1,4 @@
-import FormValidator from "../components/FormValidator.js";
+import FormValidator from '../components/FormValidator.js';
 import {
   formSelectors,
   spinnerSelectors,
@@ -6,11 +6,11 @@ import {
   registrationAlertPopupSelector,
   registrationFormSelector,
   formInputSelector,
-} from "../utils/constants.js";
+} from '../utils/constants.js';
 import { apiParams } from '../utils/api-params.js';
-import Spinner from "../components/Spinner.js";
-import PopupInfo from "../components/PopupInfo.js";
-import Api from "../components/Api.js";
+import Spinner from '../components/Spinner.js';
+import PopupInfo from '../components/PopupInfo.js';
+import Api from '../components/Api.js';
 
 const formValidator = new FormValidator(formSelectors);
 formValidator.enableValidation();
@@ -25,7 +25,7 @@ const popupAlert = new PopupInfo({
 const api = new Api(apiParams);
 
 const form = document.querySelector(registrationFormSelector);
-form.addEventListener("submit", (e) => {
+form.addEventListener('submit', (e) => {
   e.preventDefault();
 
   const formInputs = Array.from(form.querySelectorAll(formInputSelector));
@@ -35,7 +35,7 @@ form.addEventListener("submit", (e) => {
   }, {});
   sendingData.date = new Date().toLocaleString().slice(0, -3);
 
-  loadingSpinner.open("отправка");
+  loadingSpinner.open('отправка');
   api
     .sendMessage(sendingData)
     .then((res) => {
@@ -45,9 +45,7 @@ form.addEventListener("submit", (e) => {
         formValidator.toggleButtonSubmitState();
       } else return Promise.reject(res.status);
     })
-    .catch((err) =>
-      popupAlert.open(`Произошла ошибка ${err}.`, 'rejected')
-    )
+    .catch((err) => popupAlert.open(`Произошла ошибка ${err}.`, 'rejected'))
     .finally(() => {
       loadingSpinner.close();
     });
