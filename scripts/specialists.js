@@ -1,8 +1,9 @@
+import PopupImg from '../components/PopupImage.js';
+
 import {
   popupImgSelectors,
   documentPhotoSelector,
 } from '../utils/constants.js';
-import PopupImg from '../components/PopupImage.js';
 
 const popupImg = new PopupImg(popupImgSelectors);
 

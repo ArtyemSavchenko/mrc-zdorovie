@@ -1,20 +1,20 @@
 export default class Api {
-  constructor({ serviсeId, templateId, userId, apiUrl }) {
-    this._serviсeId = serviсeId;
+  constructor({ serviceId, templateId, userId, apiUrl }) {
+    this._serviceId = serviceId;
     this._templateId = templateId;
     this._userId = userId;
     this._apiUrl = apiUrl;
   }
 
-  sendMessage(sendingData) {
+  async sendMessage(sendingData) {
     const data = {
-      service_id: this._serviсeId,
+      service_id: this._serviceId,
       template_id: this._templateId,
       user_id: this._userId,
       template_params: sendingData,
     };
 
-    return fetch(this._apiUrl, {
+    return await fetch(this._apiUrl, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

@@ -1,11 +1,12 @@
+import PopupInfo from '../components/PopupInfo.js';
+import ProcedureCard from '../components/ProcedureCard.js';
+
 import {
   popupInfoSelectors,
   procedureCardSelector,
   procedureDescriptionSelector,
   proceduresPopupSelector,
 } from '../utils/constants.js';
-import PopupInfo from '../components/PopupInfo.js';
-import ProcedureCard from '../components/ProcedureCard.js';
 
 const popup = new PopupInfo({
   ...popupInfoSelectors,
