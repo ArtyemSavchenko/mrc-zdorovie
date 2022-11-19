@@ -14,7 +14,6 @@
   grid-column: 1 / -1;
   grid-row: 1 / -1;
   place-self: start end;
-  outline: none;
   transition: transform 0.2s linear;
 }
 

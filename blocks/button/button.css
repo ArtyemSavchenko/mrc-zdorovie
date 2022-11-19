@@ -11,28 +11,27 @@
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 600;
-  transition: transform var(--out-time) ease-out,
-    box-shadow var(--out-time) ease-out;
+  transition: transform var(--out-time),
+    background-color var(--out-time);
   box-shadow: 0 3px 8px rgb(0 0 0 / 30%);
 }
 
 .button:hover {
-  transition: transform var(--in-time) ease-out,
-    box-shadow var(--in-time) ease-out;
+  background-color: var(--accent-hover-color);
+  transition: transform var(--in-time), background-color var(--in-time);
 }
 
-.button:enabled:active {
+.button:enabled:active, .button:hover:active {
   transform: scale(0.95);
   box-shadow: 0 0 0 rgb(0 0 0 / 30%);
-  transition: transform var(--in-time) ease-out,
-    box-shadow var(--in-time) ease-out;
+  transition: transform var(--in-time),
+    box-shadow var(--in-time);
 }
 
 .button:disabled {
+  transition: color var(--out-time), background-color var(--out-time);
   background-color: transparent;
   box-shadow: 0 0 0 1px #ddd;
   color: #ddd;
   cursor: auto;
-  transition: transform var(--in-time) ease-out,
-    box-shadow var(--in-time) ease-out;
 }

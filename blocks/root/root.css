@@ -61,6 +61,11 @@
   --menu-height: 75px;
   scroll-behavior: smooth;  
   scroll-padding: 65px;
-  --out-time: .5s;
+  --out-time: .35s;
   --in-time: .1s;
+}
+
+*:focus-visible {
+  outline: 3px solid var(--accent-color);
+  outline-offset: 3px;
 }
