@@ -28,9 +28,5 @@ Content:
 Данные пациента: {{pacientInfo}}  
 Сообщение: {{pacientMessage}}
 ```
----
-Проект дорабатывается:
-* придумать первый блок главной страницы (взять фото ребенка с фото-стока?)
-* придумать внешний вид попапа подтверждения/ошибки отправки формы и возможно переделать спиннер в более простой.
 
-<a href="https://artyemsavchenko.github.io/mrc-zdorovie/index.html" target="_blank">`Демо`</a>
+<a href="https://artyemsavchenko.github.io/mrc-zdorovie/index.html" target="_blank">`Демо`</a> — dev-версия, записи на лечение идут на тестовый e-mail
