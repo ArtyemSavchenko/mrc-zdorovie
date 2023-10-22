@@ -1,14 +1,14 @@
 .footer__content-box {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: repeat(3, max-content);
+  grid-template-columns: repeat(4, max-content);
   grid-template-rows: repeat(2, max-content);
   gap: 15px 60px;
   margin-bottom: 30px;
   box-sizing: border-box;
 }
 
-@media all and (max-width: 950px) {
+@media all and (max-width: 1200px) {
   .footer__content-box {
     grid-template-columns: 1fr;
     grid-template-rows: none;

@@ -1,787 +1,1036 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Сайт центра для реабилитации детей и взрослых с последствиями перенесённых заболеваний нервной системы и опорно-двигательного аппарата."
+    />
+    <meta name="keywords" content="реабилитация, лечение, дети" />
+    <meta
+      name="author"
+      content="код: Артём Савченко, Роман Андруханенко, дизайн: Мартынов Дмитрий, худрук: Артём Савченко"
+    />
+    <link rel="stylesheet" href="./pages/price.css" />
+    <link
+      rel="icon"
+      href="./images/favicon.svg"
+      sizes="any"
+      type="image/svg+xml"
+    />
+    <title>Центр Здоровья</title>
+    <script type="module" src="./scripts/for-all-pages/index.js" defer></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Сайт центра для реабилитации детей и взрослых с последствиями перенесённых заболеваний нервной системы и опорно-двигательного аппарата.">
-  <meta name="keywords" content="реабилитация, лечение, дети">
-  <meta name="author"
-    content="код: Артём Савченко, Роман Андруханенко, дизайн: Мартынов Дмитрий, худрук: Артём Савченко">
-  <link rel="stylesheet" href="./pages/price.css">
-  <link rel="icon" href="./images/favicon.svg" sizes="any" type="image/svg+xml">
-  <title>Центр Здоровья</title>
-  <script type="module" src="./scripts/for-all-pages/index.js" defer></script>
-</head>
-
-<body class="page">
-  <header class="header wrapper">
-    <a href="./index.html" class="logo logo_place_header">
-      <img class="logo__img" src="./images/logo.webp" alt="Солнце.">
-      <h2 class="logo__text">Центр Здоровья</h2>
-    </a>
-    <p class="header__contacts">ТЕЛЕФОН:
-      <a class="header__phone-number" href="tel:+79895060409">+7 989 506–04–09</a>
-    </p>
-    <button class="header__menu-button" type="button" aria-label="Открыть меню."></button>
-    <nav class="header__menu">
-      <ul class="header__list">
-        <li><a class="header__link" href="./index.html">Главная</a></li>
-        <li><a class="header__link" href="./procedures.html">Процедуры</a></li>
-        <li><a class="header__link" href="./gallery.html">Галерея</a></li>
-        <li><a class="header__link" href="./specialists.html">Руководство</a></li>
-        <li><a class="header__link header__link_current-page">Прейскурант</a></li>
-        <li><a class="header__link" href="./registration.html">Запись на лечение</a></li>
-        <li><a class="header__link" href="./contacts.html">Контакты</a></li>
-        <li><a class="header__link" href="./new-center.html">Новый центр</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main class="wrapper">
-    <section class="flex-column-container">
-      <h2 class="headline">Прейскурант</h2>
-
-      <div class="pricelist">
-        <table class="pricelist__table">
-          <caption class="pricelist__caption">Цены от 25.02.2022г.</caption>
-          <thead>
-            <tr>
-              <th class="pricelist__header pricelist__header_left-side">Наименования процедур</th>
-              <th class="pricelist__header">с&nbsp;1&nbsp;месяца до&nbsp;6&nbsp;лет</th>
-              <th class="pricelist__header">с&nbsp;6&nbsp;лет до&nbsp;10&nbsp;лет</th>
-              <th class="pricelist__header">с&nbsp;10&nbsp;лет</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="pricelist__procedure">Первичный приём невролога</td>
-              <td class="pricelist__price">1200</td>
-              <td class="pricelist__price">1200</td>
-              <td class="pricelist__price">1200</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Первичный приём педиатра</td>
-              <td class="pricelist__price">1200</td>
-              <td class="pricelist__price">1200</td>
-              <td class="pricelist__price">1200</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Вызов врача на&nbsp;дом (по&nbsp;г. Таганрог)</td>
-              <td class="pricelist__price">1800</td>
-              <td class="pricelist__price">1800</td>
-              <td class="pricelist__price">1800</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Вызов врача на&nbsp;дом (по&nbsp;Неклиновскому району)</td>
-              <td class="pricelist__price">2400</td>
-              <td class="pricelist__price">2400</td>
-              <td class="pricelist__price">2400</td>
-            </tr>
-            <tr>
-              <td class="pricelist__subheader" colspan="4">Приём врача повторный (в&nbsp;течение месяца)</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Невролог</td>
-              <td class="pricelist__price">800</td>
-              <td class="pricelist__price">800</td>
-              <td class="pricelist__price">800</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Педиатр</td>
-              <td class="pricelist__price">800</td>
-              <td class="pricelist__price">800</td>
-              <td class="pricelist__price">800</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Консультация и&nbsp;наблюдение врачом в&nbsp;течение курса</td>
-              <td class="pricelist__price">1200</td>
-              <td class="pricelist__price">1200</td>
-              <td class="pricelist__price">1200</td>
-            </tr>
-            <tr>
-              <td class="pricelist__subheader" colspan="4">ЭЭГ</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Электроэнцефолограмма (30&nbsp;минут)</td>
-              <td class="pricelist__price">2000</td>
-              <td class="pricelist__price">2000</td>
-              <td class="pricelist__price">2000</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Электроэнцефолограмма (мониторинг сна и&nbsp;бодрствования)&nbsp;/
-                3&nbsp;часа</td>
-              <td class="pricelist__price">6000</td>
-              <td class="pricelist__price">6000</td>
-              <td class="pricelist__price">6000</td>
-            </tr>
-            <tr>
-              <td class="pricelist__subheader" colspan="4">Консультация специалистов</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Логопед</td>
-              <td class="pricelist__price">1200</td>
-              <td class="pricelist__price">1200</td>
-              <td class="pricelist__price">1200</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Психолог</td>
-              <td class="pricelist__price">1200</td>
-              <td class="pricelist__price">1200</td>
-              <td class="pricelist__price">1200</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Психолог (работа со&nbsp;взрослыми)&nbsp;/ 60&nbsp;минут</td>
-              <td class="pricelist__not-provided"></td>
-              <td class="pricelist__not-provided"></td>
-              <td class="pricelist__price">1900</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Курс психологической поддержки родителей детей с&nbsp;особенностями
-                развития (5&nbsp;занятий)</td>
-              <td class="pricelist__not-provided"></td>
-              <td class="pricelist__not-provided"></td>
-              <td class="pricelist__price">9500</td>
-            </tr>
-            <tr>
-              <td class="pricelist__subheader" colspan="4">Физическая реабилитация</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Лечебная физическая культура (ЛФК) 30&nbsp;минут</td>
-              <td class="pricelist__price">800</td>
-              <td class="pricelist__price">850</td>
-              <td class="pricelist__price">900</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Лечебная физическая культура (ЛФК) 45&nbsp;минут</td>
-              <td class="pricelist__price">1200</td>
-              <td class="pricelist__price">1250</td>
-              <td class="pricelist__price">1300</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Лечебная физическая культура (ЛФК) 60&nbsp;минут</td>
-              <td class="pricelist__price">1600</td>
-              <td class="pricelist__price">1650</td>
-              <td class="pricelist__price">1700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Адаптивная физическая культура (АФК) 30&nbsp;минут</td>
-              <td class="pricelist__price">800</td>
-              <td class="pricelist__price">850</td>
-              <td class="pricelist__price">900</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Адаптивная физическая культура (АФК) 45&nbsp;минут</td>
-              <td class="pricelist__price">1200</td>
-              <td class="pricelist__price">1250</td>
-              <td class="pricelist__price">1300</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Адаптивная физическая культура (АФК) 60&nbsp;минут</td>
-              <td class="pricelist__price">1600</td>
-              <td class="pricelist__price">1650</td>
-              <td class="pricelist__price">1700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">АФК (с&nbsp;двумя специалистами) 30&nbsp;минут</td>
-              <td class="pricelist__price">1500</td>
-              <td class="pricelist__price">1600</td>
-              <td class="pricelist__price">1700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">АФК (с&nbsp;двумя специалистами) 45&nbsp;минут</td>
-              <td class="pricelist__price">2250</td>
-              <td class="pricelist__price">2400</td>
-              <td class="pricelist__price">2500</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Бобат-терапия (45&nbsp;минут)</td>
-              <td class="pricelist__price">1300</td>
-              <td class="pricelist__price">1350</td>
-              <td class="pricelist__price">1400</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Бломберг терапия (15&nbsp;минут)</td>
-              <td class="pricelist__price">350</td>
-              <td class="pricelist__price">350</td>
-              <td class="pricelist__price">350</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Бломберг терапия (25&nbsp;минут)</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Кинезиотерапия (30&nbsp;минут)</td>
-              <td class="pricelist__price">800</td>
-              <td class="pricelist__price">850</td>
-              <td class="pricelist__price">900</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Кинезиотерапия (45&nbsp;минут)</td>
-              <td class="pricelist__price">1200</td>
-              <td class="pricelist__price">1250</td>
-              <td class="pricelist__price">1300</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Кинезиотерапия (60&nbsp;минут)</td>
-              <td class="pricelist__price">1600</td>
-              <td class="pricelist__price">1650</td>
-              <td class="pricelist__price">1700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Механотерапия (15&nbsp;минут)</td>
-              <td class="pricelist__price">400</td>
-              <td class="pricelist__price">420</td>
-              <td class="pricelist__price">450</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Механотерапия (30&nbsp;минут)</td>
-              <td class="pricelist__price">800</td>
-              <td class="pricelist__price">850</td>
-              <td class="pricelist__price">900</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Механотерапия (45&nbsp;минут)</td>
-              <td class="pricelist__price">1200</td>
-              <td class="pricelist__price">1250</td>
-              <td class="pricelist__price">1300</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Механотерапия (60&nbsp;минут)</td>
-              <td class="pricelist__price">1600</td>
-              <td class="pricelist__price">1650</td>
-              <td class="pricelist__price">1700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Занятие на&nbsp;улучшение биомеханики ходьбы (30&nbsp;минут)</td>
-              <td class="pricelist__price">800</td>
-              <td class="pricelist__price">850</td>
-              <td class="pricelist__price">900</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Занятие на&nbsp;улучшение биомеханики ходьбы (45&nbsp;минут)</td>
-              <td class="pricelist__price">1200</td>
-              <td class="pricelist__price">1250</td>
-              <td class="pricelist__price">1300</td>
-            </tr>
-            <tr>
-              <td class="pricelist__subheader" colspan="4">Виды массажа</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Массаж 1&nbsp;единица</td>
-              <td class="pricelist__price">114</td>
-              <td class="pricelist__price">120</td>
-              <td class="pricelist__price">126</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Массаж общий (30&nbsp;минут)</td>
-              <td class="pricelist__price">650</td>
-              <td class="pricelist__not-provided"></td>
-              <td class="pricelist__not-provided"></td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Массаж общий (45&nbsp;минут)</td>
-              <td class="pricelist__price">1000</td>
-              <td class="pricelist__price">1200</td>
-              <td class="pricelist__not-provided"></td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Массаж общий (60&nbsp;минут)</td>
-              <td class="pricelist__price">1300</td>
-              <td class="pricelist__price">1400</td>
-              <td class="pricelist__price">1500</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Массаж общий с&nbsp;разработкой суставов (80&nbsp;минут)</td>
-              <td class="pricelist__price">1500</td>
-              <td class="pricelist__price">1600</td>
-              <td class="pricelist__price">1700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Массаж мышц шейно-воротниковой зоны</td>
-              <td class="pricelist__price">250</td>
-              <td class="pricelist__price">350</td>
-              <td class="pricelist__price">450</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Массаж мышц шейно-воротниковой зоны с&nbsp;разработкой шейного отдела
-                позвоночника</td>
-              <td class="pricelist__price">400</td>
-              <td class="pricelist__price">450</td>
-              <td class="pricelist__price">550</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Массаж мышц шейно-воротниковой зоны, спины, поясничной области</td>
-              <td class="pricelist__price">650</td>
-              <td class="pricelist__price">800</td>
-              <td class="pricelist__price">1000</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Массаж мышц шейно-воротниковой зоны, спины, поясничной области
-                с&nbsp;разработкой шейного отдела позвоночника</td>
-              <td class="pricelist__price">750</td>
-              <td class="pricelist__price">950</td>
-              <td class="pricelist__price">1200</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Массаж мышц рук</td>
-              <td class="pricelist__price">250</td>
-              <td class="pricelist__price">350</td>
-              <td class="pricelist__price">450</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Массаж мышц ног</td>
-              <td class="pricelist__price">350</td>
-              <td class="pricelist__price">450</td>
-              <td class="pricelist__price">550</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Рефлекторно-сегментарный массаж (45&nbsp;минут)</td>
-              <td class="pricelist__price">1200</td>
-              <td class="pricelist__price">1250</td>
-              <td class="pricelist__price">1300</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Рефлекторно-сегментарный массаж (60&nbsp;минут)</td>
-              <td class="pricelist__price">1600</td>
-              <td class="pricelist__price">1650</td>
-              <td class="pricelist__price">1700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Суставная гимнастика (45&nbsp;минут)</td>
-              <td class="pricelist__price">1200</td>
-              <td class="pricelist__price">1250</td>
-              <td class="pricelist__price">1300</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Точечный массаж (45&nbsp;минут)</td>
-              <td class="pricelist__price">1200</td>
-              <td class="pricelist__price">1250</td>
-              <td class="pricelist__price">1300</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Точечный массаж + массаж стоп (60&nbsp;минут)</td>
-              <td class="pricelist__price">1500</td>
-              <td class="pricelist__price">1600</td>
-              <td class="pricelist__price">1700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Массаж лица по&nbsp;Кастильо Моралес (15&nbsp;минут)</td>
-              <td class="pricelist__price">450</td>
-              <td class="pricelist__price">450</td>
-              <td class="pricelist__price">450</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Логопедический зондовый массаж (10&nbsp;минут)</td>
-              <td class="pricelist__price">420</td>
-              <td class="pricelist__price">420</td>
-              <td class="pricelist__price">420</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Логопедический зондовый массаж (15&nbsp;минут)</td>
-              <td class="pricelist__price">450</td>
-              <td class="pricelist__price">450</td>
-              <td class="pricelist__price">450</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Массаж мышц шейно-воротниковой зоны с&nbsp;разработкой шейного отдела
-                позвоночника</td>
-              <td class="pricelist__price">400</td>
-              <td class="pricelist__price">450</td>
-              <td class="pricelist__price">550</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Логопедический ручной массаж (15&nbsp;минут)</td>
-              <td class="pricelist__price">450</td>
-              <td class="pricelist__price">450</td>
-              <td class="pricelist__price">450</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Точечный массаж логопедический (15&nbsp;минут)</td>
-              <td class="pricelist__price">450</td>
-              <td class="pricelist__price">450</td>
-              <td class="pricelist__price">450</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Массаж рук + Су-джок терапия (25&nbsp;минут)</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__subheader" colspan="4">Коррекция позвоночника</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Мануальная коррекция позвоночника</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">750</td>
-              <td class="pricelist__price">800</td>
-            </tr>
-            <tr>
-              <td class="pricelist__subheader" colspan="4">Тепловые процедуры</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Озокеритовые аппликации</td>
-              <td class="pricelist__price">300</td>
-              <td class="pricelist__price">300</td>
-              <td class="pricelist__price">300</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Грязевые аппликации</td>
-              <td class="pricelist__price">620</td>
-              <td class="pricelist__price">620</td>
-              <td class="pricelist__price">620</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Бишофитовые аппликации</td>
-              <td class="pricelist__price">620</td>
-              <td class="pricelist__price">620</td>
-              <td class="pricelist__price">620</td>
-            </tr>
-            <tr>
-              <td class="pricelist__subheader" colspan="4">Водные процедуры</td>
-            </tr>
-             <tr>
-              <td class="pricelist__procedure">Индивидуальное занятие лечебной физкультурой в&nbsp;бассейне (30&nbsp;мин.)&nbsp;/ с&nbsp;весны 2023&nbsp;года.</td>
-              <td class="pricelist__price">900</td>
-              <td class="pricelist__price">900</td>
-              <td class="pricelist__price">900</td>
-            </tr>
-             <tr>
-              <td class="pricelist__procedure">Индивидуальное занятие лечебной физкультурой в&nbsp;бассейне (60&nbsp;мин.)&nbsp;/ с&nbsp;весны 2023&nbsp;года.</td>
-              <td class="pricelist__price">1800</td>
-              <td class="pricelist__price">1800</td>
-              <td class="pricelist__price">1800</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Ванны гидро-аэромассажные с&nbsp;маслами</td>
-              <td class="pricelist__price">660</td>
-              <td class="pricelist__price">660</td>
-              <td class="pricelist__price">660</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Ванны гидро-аэромассажные с&nbsp;бишофитом</td>
-              <td class="pricelist__price">680</td>
-              <td class="pricelist__price">680</td>
-              <td class="pricelist__price">680</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Ванны гидро-аэромассажные с&nbsp;бишофитом и&nbsp;маслами</td>
-              <td class="pricelist__price">690</td>
-              <td class="pricelist__price">690</td>
-              <td class="pricelist__price">690</td>
-            </tr>
-            <tr>
-              <td class="pricelist__subheader" colspan="4">Электропроцедуры</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Лазеротерапия</td>
-              <td class="pricelist__price">360</td>
-              <td class="pricelist__price">360</td>
-              <td class="pricelist__price">360</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Электростимуляция</td>
-              <td class="pricelist__price">240</td>
-              <td class="pricelist__price">240</td>
-              <td class="pricelist__price">240</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Амплипульстерапия</td>
-              <td class="pricelist__price">240</td>
-              <td class="pricelist__price">240</td>
-              <td class="pricelist__price">240</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Электрофорез</td>
-              <td class="pricelist__price">240</td>
-              <td class="pricelist__price">240</td>
-              <td class="pricelist__price">240</td>
-            </tr>
-            <tr>
-              <td class="pricelist__subheader" colspan="4">Лечебный пневмомассаж</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Лечебный пневмомассаж (аппарат Лимфа-Э)&nbsp;&mdash; 1&nbsp;процедура
-              </td>
-              <td class="pricelist__price">400</td>
-              <td class="pricelist__price">400</td>
-              <td class="pricelist__price">400</td>
-            </tr>
-            <tr>
-              <td class="pricelist__subheader" colspan="4">Микрополяризация</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Транскраниальная и&nbsp;трансвертебральная микрополяризация</td>
-              <td class="pricelist__price">800</td>
-              <td class="pricelist__price">800</td>
-              <td class="pricelist__price">800</td>
-            </tr>
-            <tr>
-              <td class="pricelist__subheader" colspan="4">Иглорефлексотерапия</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Иглорефлексотерапия (ИРТ)</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__subheader" colspan="4">Фармакопунктура</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Фармакопунктура</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__subheader" colspan="4">Процедуры биологически обратной связи</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Биоакустическая коррекция</td>
-              <td class="pricelist__price">1000</td>
-              <td class="pricelist__price">1000</td>
-              <td class="pricelist__price">1000</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Имитатор подошвенной нагрузки &laquo;КОРВИТ&raquo; (20&nbsp;минут)</td>
-              <td class="pricelist__price">500</td>
-              <td class="pricelist__price">500</td>
-              <td class="pricelist__price">500</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Беспроводной тренажёр БОС по&nbsp;электромиограмме (ЭМГ)</td>
-              <td class="pricelist__price">750</td>
-              <td class="pricelist__price">750</td>
-              <td class="pricelist__price">750</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Нейротренажёр &laquo;BrainBit NeuroFit&raquo;
-                по&nbsp;электроэнцефолограмме (ЭЭГ)</td>
-              <td class="pricelist__price">750</td>
-              <td class="pricelist__price">750</td>
-              <td class="pricelist__price">750</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">&laquo;Calibri BeFit&raquo;&nbsp;&mdash; тренировка мышц тазового дна
-                с&nbsp;помощью БОС</td>
-              <td class="pricelist__price">750</td>
-              <td class="pricelist__price">750</td>
-              <td class="pricelist__price">750</td>
-            </tr>
-            <tr>
-              <td class="pricelist__subheader" colspan="4">Социально-психологическая реабилитация</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Занятие на&nbsp;развитие мелкой моторики рук (25&nbsp;минут)</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Занятие на&nbsp;развитие сенсорного чувства (25&nbsp;минут)</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Занятие с&nbsp;логопедом (15&nbsp;минут)</td>
-              <td class="pricelist__price">350</td>
-              <td class="pricelist__price">350</td>
-              <td class="pricelist__price">350</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Занятие с&nbsp;логопедом (25&nbsp;минут)</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Занятие с&nbsp;логопедом (45&nbsp;минут)</td>
-              <td class="pricelist__price">1050</td>
-              <td class="pricelist__price">1050</td>
-              <td class="pricelist__price">1050</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Занятие с&nbsp;логопедом (50&nbsp;минут)</td>
-              <td class="pricelist__price">1400</td>
-              <td class="pricelist__price">1400</td>
-              <td class="pricelist__price">1400</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Занятие с&nbsp;нейропсихологом (25&nbsp;минут)</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Занятие с&nbsp;нейропсихологом (45&nbsp;минут)</td>
-              <td class="pricelist__price">1050</td>
-              <td class="pricelist__price">1050</td>
-              <td class="pricelist__price">1050</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Занятие с&nbsp;нейропсихологом (50&nbsp;минут)</td>
-              <td class="pricelist__price">1400</td>
-              <td class="pricelist__price">1400</td>
-              <td class="pricelist__price">1400</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Занятие с&nbsp;психологом (25&nbsp;минут)</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Занятие с&nbsp;психологом (45&nbsp;минут)</td>
-              <td class="pricelist__price">1050</td>
-              <td class="pricelist__price">1050</td>
-              <td class="pricelist__price">1050</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Занятие с&nbsp;психологом (50&nbsp;минут)</td>
-              <td class="pricelist__price">1400</td>
-              <td class="pricelist__price">1400</td>
-              <td class="pricelist__price">1400</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Занятие с&nbsp;педагогом-дефектологом (25&nbsp;минут)</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Арт-терапия (25&nbsp;минут)</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Музыкальная терапия (25&nbsp;минут)</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Билотерапия (25&nbsp;минут)</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Эрготерапия (25&nbsp;минут)</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Терапия рук (25&nbsp;минут)</td>
-              <td class="pricelist__price">800</td>
-              <td class="pricelist__price">800</td>
-              <td class="pricelist__price">800</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Коррекция мелкой моторики методом тейпирования (1&nbsp;зона)</td>
-              <td class="pricelist__price">500</td>
-              <td class="pricelist__price">500</td>
-              <td class="pricelist__price">500</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Интерактивная сенсомоторная терапия (проекционная система &laquo;Omi
-                Vista&raquo;)</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-              <td class="pricelist__price">700</td>
-            </tr>
-            <tr>
-              <td class="pricelist__subheader" colspan="4">Инъекции</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Внутримышечно</td>
-              <td class="pricelist__price">50</td>
-              <td class="pricelist__price">50</td>
-              <td class="pricelist__price">50</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Внутривенно</td>
-              <td class="pricelist__price">100</td>
-              <td class="pricelist__price">100</td>
-              <td class="pricelist__price">100</td>
-            </tr>
-            <tr>
-              <td class="pricelist__procedure">Внутривенно капельно</td>
-              <td class="pricelist__price">300</td>
-              <td class="pricelist__price">300</td>
-              <td class="pricelist__price">300</td>
-            </tr>
-          </tbody>
-
-        </table>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="wrapper footer__content-box">
-      <a href="./index.html" class="logo logo_place_footer">
-        <img class="logo__img" src="./images/logo.webp" alt="Солнце.">
+  <body class="page">
+    <header class="header wrapper">
+      <a href="./index.html" class="logo logo_place_header">
+        <img class="logo__img" src="./images/logo.webp" alt="Солнце." />
         <h2 class="logo__text">Центр Здоровья</h2>
       </a>
-      <ul class="footer__list">
-        <li>
-          <a class="footer__link footer__link_type_email" href="mailto:chorikova@mail.ru">chorikova@mail.ru</a>
-        </li>
-        <li>
-          <a class="footer__link footer__link_type_tel" href="tel:+79895060409">+7 989 506–04–09</a>
-        </li>
-        <li>
-          <a class="footer__link footer__link_type_address" href="./contacts.html#address-map">Ростовская область,
-            г.&nbsp;Таганрог,
-            ул.&nbsp;Социалистическая,
-            д.&nbsp;161
-          </a>
-        </li>
-      </ul>
+      <p class="header__contacts">
+        ТЕЛЕФОН:
+        <a class="header__phone-number" href="tel:+79895060409"
+          >+7 989 506–04–09</a
+        >
+      </p>
+      <button
+        class="header__menu-button"
+        type="button"
+        aria-label="Открыть меню."
+      ></button>
+      <nav class="header__menu">
+        <ul class="header__list">
+          <li><a class="header__link" href="./index.html">Главная</a></li>
+          <li>
+            <a class="header__link" href="./procedures.html">Процедуры</a>
+          </li>
+          <li><a class="header__link" href="./gallery.html">Галерея</a></li>
+          <li>
+            <a class="header__link" href="./specialists.html">Руководство</a>
+          </li>
+          <li>
+            <a class="header__link header__link_current-page">Прейскурант</a>
+          </li>
+          <li>
+            <a class="header__link" href="./registration.html"
+              >Запись на лечение</a
+            >
+          </li>
+          <li><a class="header__link" href="./contacts.html">Контакты</a></li>
+          <li>
+            <a class="header__link" href="./new-center.html">Новый центр</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-      <h3 class="footer__heading">Режим работы:</h3>
-      <div class="footer__schedule">
-        <span class="footer__text">Понедельник</span>
-        <span class="footer__text">8:00 — 17:00</span>
-        <span class="footer__text">Вторник</span>
-        <span class="footer__text">8:00 — 17:00</span>
-        <span class="footer__text">Среда</span>
-        <span class="footer__text">8:00 — 17:00</span>
-        <span class="footer__text">Четверг</span>
-        <span class="footer__text">8:00 — 17:00</span>
-        <span class="footer__text">Пятница</span>
-        <span class="footer__text">8:00 — 17:00</span>
+    <main class="wrapper">
+      <section class="flex-column-container">
+        <h2 class="headline">Прейскурант</h2>
+
+        <div class="pricelist">
+          <table class="pricelist__table">
+            <caption class="pricelist__caption">
+              Цены от 25.02.2022г.
+            </caption>
+            <thead>
+              <tr>
+                <th class="pricelist__header pricelist__header_left-side">
+                  Наименования процедур
+                </th>
+                <th class="pricelist__header">
+                  с&nbsp;1&nbsp;месяца до&nbsp;6&nbsp;лет
+                </th>
+                <th class="pricelist__header">
+                  с&nbsp;6&nbsp;лет до&nbsp;10&nbsp;лет
+                </th>
+                <th class="pricelist__header">с&nbsp;10&nbsp;лет</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="pricelist__procedure">Первичный приём невролога</td>
+                <td class="pricelist__price">1200</td>
+                <td class="pricelist__price">1200</td>
+                <td class="pricelist__price">1200</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Первичный приём педиатра</td>
+                <td class="pricelist__price">1200</td>
+                <td class="pricelist__price">1200</td>
+                <td class="pricelist__price">1200</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Вызов врача на&nbsp;дом (по&nbsp;г. Таганрог)
+                </td>
+                <td class="pricelist__price">1800</td>
+                <td class="pricelist__price">1800</td>
+                <td class="pricelist__price">1800</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Вызов врача на&nbsp;дом (по&nbsp;Неклиновскому району)
+                </td>
+                <td class="pricelist__price">2400</td>
+                <td class="pricelist__price">2400</td>
+                <td class="pricelist__price">2400</td>
+              </tr>
+              <tr>
+                <td class="pricelist__subheader" colspan="4">
+                  Приём врача повторный (в&nbsp;течение месяца)
+                </td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Невролог</td>
+                <td class="pricelist__price">800</td>
+                <td class="pricelist__price">800</td>
+                <td class="pricelist__price">800</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Педиатр</td>
+                <td class="pricelist__price">800</td>
+                <td class="pricelist__price">800</td>
+                <td class="pricelist__price">800</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Консультация и&nbsp;наблюдение врачом в&nbsp;течение курса
+                </td>
+                <td class="pricelist__price">1200</td>
+                <td class="pricelist__price">1200</td>
+                <td class="pricelist__price">1200</td>
+              </tr>
+              <tr>
+                <td class="pricelist__subheader" colspan="4">ЭЭГ</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Электроэнцефолограмма (30&nbsp;минут)
+                </td>
+                <td class="pricelist__price">2000</td>
+                <td class="pricelist__price">2000</td>
+                <td class="pricelist__price">2000</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Электроэнцефолограмма (мониторинг сна
+                  и&nbsp;бодрствования)&nbsp;/ 3&nbsp;часа
+                </td>
+                <td class="pricelist__price">6000</td>
+                <td class="pricelist__price">6000</td>
+                <td class="pricelist__price">6000</td>
+              </tr>
+              <tr>
+                <td class="pricelist__subheader" colspan="4">
+                  Консультация специалистов
+                </td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Логопед</td>
+                <td class="pricelist__price">1200</td>
+                <td class="pricelist__price">1200</td>
+                <td class="pricelist__price">1200</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Психолог</td>
+                <td class="pricelist__price">1200</td>
+                <td class="pricelist__price">1200</td>
+                <td class="pricelist__price">1200</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Психолог (работа со&nbsp;взрослыми)&nbsp;/ 60&nbsp;минут
+                </td>
+                <td class="pricelist__not-provided"></td>
+                <td class="pricelist__not-provided"></td>
+                <td class="pricelist__price">1900</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Курс психологической поддержки родителей детей
+                  с&nbsp;особенностями развития (5&nbsp;занятий)
+                </td>
+                <td class="pricelist__not-provided"></td>
+                <td class="pricelist__not-provided"></td>
+                <td class="pricelist__price">9500</td>
+              </tr>
+              <tr>
+                <td class="pricelist__subheader" colspan="4">
+                  Физическая реабилитация
+                </td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Лечебная физическая культура (ЛФК) 30&nbsp;минут
+                </td>
+                <td class="pricelist__price">800</td>
+                <td class="pricelist__price">850</td>
+                <td class="pricelist__price">900</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Лечебная физическая культура (ЛФК) 45&nbsp;минут
+                </td>
+                <td class="pricelist__price">1200</td>
+                <td class="pricelist__price">1250</td>
+                <td class="pricelist__price">1300</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Лечебная физическая культура (ЛФК) 60&nbsp;минут
+                </td>
+                <td class="pricelist__price">1600</td>
+                <td class="pricelist__price">1650</td>
+                <td class="pricelist__price">1700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Адаптивная физическая культура (АФК) 30&nbsp;минут
+                </td>
+                <td class="pricelist__price">800</td>
+                <td class="pricelist__price">850</td>
+                <td class="pricelist__price">900</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Адаптивная физическая культура (АФК) 45&nbsp;минут
+                </td>
+                <td class="pricelist__price">1200</td>
+                <td class="pricelist__price">1250</td>
+                <td class="pricelist__price">1300</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Адаптивная физическая культура (АФК) 60&nbsp;минут
+                </td>
+                <td class="pricelist__price">1600</td>
+                <td class="pricelist__price">1650</td>
+                <td class="pricelist__price">1700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  АФК (с&nbsp;двумя специалистами) 30&nbsp;минут
+                </td>
+                <td class="pricelist__price">1500</td>
+                <td class="pricelist__price">1600</td>
+                <td class="pricelist__price">1700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  АФК (с&nbsp;двумя специалистами) 45&nbsp;минут
+                </td>
+                <td class="pricelist__price">2250</td>
+                <td class="pricelist__price">2400</td>
+                <td class="pricelist__price">2500</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Бобат-терапия (45&nbsp;минут)
+                </td>
+                <td class="pricelist__price">1300</td>
+                <td class="pricelist__price">1350</td>
+                <td class="pricelist__price">1400</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Бломберг терапия (15&nbsp;минут)
+                </td>
+                <td class="pricelist__price">350</td>
+                <td class="pricelist__price">350</td>
+                <td class="pricelist__price">350</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Бломберг терапия (25&nbsp;минут)
+                </td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Кинезиотерапия (30&nbsp;минут)
+                </td>
+                <td class="pricelist__price">800</td>
+                <td class="pricelist__price">850</td>
+                <td class="pricelist__price">900</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Кинезиотерапия (45&nbsp;минут)
+                </td>
+                <td class="pricelist__price">1200</td>
+                <td class="pricelist__price">1250</td>
+                <td class="pricelist__price">1300</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Кинезиотерапия (60&nbsp;минут)
+                </td>
+                <td class="pricelist__price">1600</td>
+                <td class="pricelist__price">1650</td>
+                <td class="pricelist__price">1700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Механотерапия (15&nbsp;минут)
+                </td>
+                <td class="pricelist__price">400</td>
+                <td class="pricelist__price">420</td>
+                <td class="pricelist__price">450</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Механотерапия (30&nbsp;минут)
+                </td>
+                <td class="pricelist__price">800</td>
+                <td class="pricelist__price">850</td>
+                <td class="pricelist__price">900</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Механотерапия (45&nbsp;минут)
+                </td>
+                <td class="pricelist__price">1200</td>
+                <td class="pricelist__price">1250</td>
+                <td class="pricelist__price">1300</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Механотерапия (60&nbsp;минут)
+                </td>
+                <td class="pricelist__price">1600</td>
+                <td class="pricelist__price">1650</td>
+                <td class="pricelist__price">1700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Занятие на&nbsp;улучшение биомеханики ходьбы (30&nbsp;минут)
+                </td>
+                <td class="pricelist__price">800</td>
+                <td class="pricelist__price">850</td>
+                <td class="pricelist__price">900</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Занятие на&nbsp;улучшение биомеханики ходьбы (45&nbsp;минут)
+                </td>
+                <td class="pricelist__price">1200</td>
+                <td class="pricelist__price">1250</td>
+                <td class="pricelist__price">1300</td>
+              </tr>
+              <tr>
+                <td class="pricelist__subheader" colspan="4">Виды массажа</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Массаж 1&nbsp;единица</td>
+                <td class="pricelist__price">114</td>
+                <td class="pricelist__price">120</td>
+                <td class="pricelist__price">126</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Массаж общий (30&nbsp;минут)
+                </td>
+                <td class="pricelist__price">650</td>
+                <td class="pricelist__not-provided"></td>
+                <td class="pricelist__not-provided"></td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Массаж общий (45&nbsp;минут)
+                </td>
+                <td class="pricelist__price">1000</td>
+                <td class="pricelist__price">1200</td>
+                <td class="pricelist__not-provided"></td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Массаж общий (60&nbsp;минут)
+                </td>
+                <td class="pricelist__price">1300</td>
+                <td class="pricelist__price">1400</td>
+                <td class="pricelist__price">1500</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Массаж общий с&nbsp;разработкой суставов (80&nbsp;минут)
+                </td>
+                <td class="pricelist__price">1500</td>
+                <td class="pricelist__price">1600</td>
+                <td class="pricelist__price">1700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Массаж мышц шейно-воротниковой зоны
+                </td>
+                <td class="pricelist__price">250</td>
+                <td class="pricelist__price">350</td>
+                <td class="pricelist__price">450</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Массаж мышц шейно-воротниковой зоны с&nbsp;разработкой шейного
+                  отдела позвоночника
+                </td>
+                <td class="pricelist__price">400</td>
+                <td class="pricelist__price">450</td>
+                <td class="pricelist__price">550</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Массаж мышц шейно-воротниковой зоны, спины, поясничной области
+                </td>
+                <td class="pricelist__price">650</td>
+                <td class="pricelist__price">800</td>
+                <td class="pricelist__price">1000</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Массаж мышц шейно-воротниковой зоны, спины, поясничной области
+                  с&nbsp;разработкой шейного отдела позвоночника
+                </td>
+                <td class="pricelist__price">750</td>
+                <td class="pricelist__price">950</td>
+                <td class="pricelist__price">1200</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Массаж мышц рук</td>
+                <td class="pricelist__price">250</td>
+                <td class="pricelist__price">350</td>
+                <td class="pricelist__price">450</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Массаж мышц ног</td>
+                <td class="pricelist__price">350</td>
+                <td class="pricelist__price">450</td>
+                <td class="pricelist__price">550</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Рефлекторно-сегментарный массаж (45&nbsp;минут)
+                </td>
+                <td class="pricelist__price">1200</td>
+                <td class="pricelist__price">1250</td>
+                <td class="pricelist__price">1300</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Рефлекторно-сегментарный массаж (60&nbsp;минут)
+                </td>
+                <td class="pricelist__price">1600</td>
+                <td class="pricelist__price">1650</td>
+                <td class="pricelist__price">1700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Суставная гимнастика (45&nbsp;минут)
+                </td>
+                <td class="pricelist__price">1200</td>
+                <td class="pricelist__price">1250</td>
+                <td class="pricelist__price">1300</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Точечный массаж (45&nbsp;минут)
+                </td>
+                <td class="pricelist__price">1200</td>
+                <td class="pricelist__price">1250</td>
+                <td class="pricelist__price">1300</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Точечный массаж + массаж стоп (60&nbsp;минут)
+                </td>
+                <td class="pricelist__price">1500</td>
+                <td class="pricelist__price">1600</td>
+                <td class="pricelist__price">1700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Массаж лица по&nbsp;Кастильо Моралес (15&nbsp;минут)
+                </td>
+                <td class="pricelist__price">450</td>
+                <td class="pricelist__price">450</td>
+                <td class="pricelist__price">450</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Логопедический зондовый массаж (10&nbsp;минут)
+                </td>
+                <td class="pricelist__price">420</td>
+                <td class="pricelist__price">420</td>
+                <td class="pricelist__price">420</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Логопедический зондовый массаж (15&nbsp;минут)
+                </td>
+                <td class="pricelist__price">450</td>
+                <td class="pricelist__price">450</td>
+                <td class="pricelist__price">450</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Массаж мышц шейно-воротниковой зоны с&nbsp;разработкой шейного
+                  отдела позвоночника
+                </td>
+                <td class="pricelist__price">400</td>
+                <td class="pricelist__price">450</td>
+                <td class="pricelist__price">550</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Логопедический ручной массаж (15&nbsp;минут)
+                </td>
+                <td class="pricelist__price">450</td>
+                <td class="pricelist__price">450</td>
+                <td class="pricelist__price">450</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Точечный массаж логопедический (15&nbsp;минут)
+                </td>
+                <td class="pricelist__price">450</td>
+                <td class="pricelist__price">450</td>
+                <td class="pricelist__price">450</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Массаж рук + Су-джок терапия (25&nbsp;минут)
+                </td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__subheader" colspan="4">
+                  Коррекция позвоночника
+                </td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Мануальная коррекция позвоночника
+                </td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">750</td>
+                <td class="pricelist__price">800</td>
+              </tr>
+              <tr>
+                <td class="pricelist__subheader" colspan="4">
+                  Тепловые процедуры
+                </td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Озокеритовые аппликации</td>
+                <td class="pricelist__price">300</td>
+                <td class="pricelist__price">300</td>
+                <td class="pricelist__price">300</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Грязевые аппликации</td>
+                <td class="pricelist__price">620</td>
+                <td class="pricelist__price">620</td>
+                <td class="pricelist__price">620</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Бишофитовые аппликации</td>
+                <td class="pricelist__price">620</td>
+                <td class="pricelist__price">620</td>
+                <td class="pricelist__price">620</td>
+              </tr>
+              <tr>
+                <td class="pricelist__subheader" colspan="4">
+                  Водные процедуры
+                </td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Индивидуальное занятие лечебной физкультурой в&nbsp;бассейне
+                  (30&nbsp;мин.)&nbsp;/ с&nbsp;весны 2023&nbsp;года.
+                </td>
+                <td class="pricelist__price">900</td>
+                <td class="pricelist__price">900</td>
+                <td class="pricelist__price">900</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Индивидуальное занятие лечебной физкультурой в&nbsp;бассейне
+                  (60&nbsp;мин.)&nbsp;/ с&nbsp;весны 2023&nbsp;года.
+                </td>
+                <td class="pricelist__price">1800</td>
+                <td class="pricelist__price">1800</td>
+                <td class="pricelist__price">1800</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Ванны гидро-аэромассажные с&nbsp;маслами
+                </td>
+                <td class="pricelist__price">660</td>
+                <td class="pricelist__price">660</td>
+                <td class="pricelist__price">660</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Ванны гидро-аэромассажные с&nbsp;бишофитом
+                </td>
+                <td class="pricelist__price">680</td>
+                <td class="pricelist__price">680</td>
+                <td class="pricelist__price">680</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Ванны гидро-аэромассажные с&nbsp;бишофитом и&nbsp;маслами
+                </td>
+                <td class="pricelist__price">690</td>
+                <td class="pricelist__price">690</td>
+                <td class="pricelist__price">690</td>
+              </tr>
+              <tr>
+                <td class="pricelist__subheader" colspan="4">
+                  Электропроцедуры
+                </td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Лазеротерапия</td>
+                <td class="pricelist__price">360</td>
+                <td class="pricelist__price">360</td>
+                <td class="pricelist__price">360</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Электростимуляция</td>
+                <td class="pricelist__price">240</td>
+                <td class="pricelist__price">240</td>
+                <td class="pricelist__price">240</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Амплипульстерапия</td>
+                <td class="pricelist__price">240</td>
+                <td class="pricelist__price">240</td>
+                <td class="pricelist__price">240</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Электрофорез</td>
+                <td class="pricelist__price">240</td>
+                <td class="pricelist__price">240</td>
+                <td class="pricelist__price">240</td>
+              </tr>
+              <tr>
+                <td class="pricelist__subheader" colspan="4">
+                  Лечебный пневмомассаж
+                </td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Лечебный пневмомассаж (аппарат Лимфа-Э)&nbsp;&mdash;
+                  1&nbsp;процедура
+                </td>
+                <td class="pricelist__price">400</td>
+                <td class="pricelist__price">400</td>
+                <td class="pricelist__price">400</td>
+              </tr>
+              <tr>
+                <td class="pricelist__subheader" colspan="4">
+                  Микрополяризация
+                </td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Транскраниальная и&nbsp;трансвертебральная микрополяризация
+                </td>
+                <td class="pricelist__price">800</td>
+                <td class="pricelist__price">800</td>
+                <td class="pricelist__price">800</td>
+              </tr>
+              <tr>
+                <td class="pricelist__subheader" colspan="4">
+                  Иглорефлексотерапия
+                </td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Иглорефлексотерапия (ИРТ)</td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__subheader" colspan="4">
+                  Фармакопунктура
+                </td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Фармакопунктура</td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__subheader" colspan="4">
+                  Процедуры биологически обратной связи
+                </td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Биоакустическая коррекция</td>
+                <td class="pricelist__price">1000</td>
+                <td class="pricelist__price">1000</td>
+                <td class="pricelist__price">1000</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Имитатор подошвенной нагрузки &laquo;КОРВИТ&raquo;
+                  (20&nbsp;минут)
+                </td>
+                <td class="pricelist__price">500</td>
+                <td class="pricelist__price">500</td>
+                <td class="pricelist__price">500</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Беспроводной тренажёр БОС по&nbsp;электромиограмме (ЭМГ)
+                </td>
+                <td class="pricelist__price">750</td>
+                <td class="pricelist__price">750</td>
+                <td class="pricelist__price">750</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Нейротренажёр &laquo;BrainBit NeuroFit&raquo;
+                  по&nbsp;электроэнцефолограмме (ЭЭГ)
+                </td>
+                <td class="pricelist__price">750</td>
+                <td class="pricelist__price">750</td>
+                <td class="pricelist__price">750</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  &laquo;Calibri BeFit&raquo;&nbsp;&mdash; тренировка мышц
+                  тазового дна с&nbsp;помощью БОС
+                </td>
+                <td class="pricelist__price">750</td>
+                <td class="pricelist__price">750</td>
+                <td class="pricelist__price">750</td>
+              </tr>
+              <tr>
+                <td class="pricelist__subheader" colspan="4">
+                  Социально-психологическая реабилитация
+                </td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Занятие на&nbsp;развитие мелкой моторики рук (25&nbsp;минут)
+                </td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Занятие на&nbsp;развитие сенсорного чувства (25&nbsp;минут)
+                </td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Занятие с&nbsp;логопедом (15&nbsp;минут)
+                </td>
+                <td class="pricelist__price">350</td>
+                <td class="pricelist__price">350</td>
+                <td class="pricelist__price">350</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Занятие с&nbsp;логопедом (25&nbsp;минут)
+                </td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Занятие с&nbsp;логопедом (45&nbsp;минут)
+                </td>
+                <td class="pricelist__price">1050</td>
+                <td class="pricelist__price">1050</td>
+                <td class="pricelist__price">1050</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Занятие с&nbsp;логопедом (50&nbsp;минут)
+                </td>
+                <td class="pricelist__price">1400</td>
+                <td class="pricelist__price">1400</td>
+                <td class="pricelist__price">1400</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Занятие с&nbsp;нейропсихологом (25&nbsp;минут)
+                </td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Занятие с&nbsp;нейропсихологом (45&nbsp;минут)
+                </td>
+                <td class="pricelist__price">1050</td>
+                <td class="pricelist__price">1050</td>
+                <td class="pricelist__price">1050</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Занятие с&nbsp;нейропсихологом (50&nbsp;минут)
+                </td>
+                <td class="pricelist__price">1400</td>
+                <td class="pricelist__price">1400</td>
+                <td class="pricelist__price">1400</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Занятие с&nbsp;психологом (25&nbsp;минут)
+                </td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Занятие с&nbsp;психологом (45&nbsp;минут)
+                </td>
+                <td class="pricelist__price">1050</td>
+                <td class="pricelist__price">1050</td>
+                <td class="pricelist__price">1050</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Занятие с&nbsp;психологом (50&nbsp;минут)
+                </td>
+                <td class="pricelist__price">1400</td>
+                <td class="pricelist__price">1400</td>
+                <td class="pricelist__price">1400</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Занятие с&nbsp;педагогом-дефектологом (25&nbsp;минут)
+                </td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Арт-терапия (25&nbsp;минут)
+                </td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Музыкальная терапия (25&nbsp;минут)
+                </td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Билотерапия (25&nbsp;минут)
+                </td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Эрготерапия (25&nbsp;минут)
+                </td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Терапия рук (25&nbsp;минут)
+                </td>
+                <td class="pricelist__price">800</td>
+                <td class="pricelist__price">800</td>
+                <td class="pricelist__price">800</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Коррекция мелкой моторики методом тейпирования (1&nbsp;зона)
+                </td>
+                <td class="pricelist__price">500</td>
+                <td class="pricelist__price">500</td>
+                <td class="pricelist__price">500</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">
+                  Интерактивная сенсомоторная терапия (проекционная система
+                  &laquo;Omi Vista&raquo;)
+                </td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+                <td class="pricelist__price">700</td>
+              </tr>
+              <tr>
+                <td class="pricelist__subheader" colspan="4">Инъекции</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Внутримышечно</td>
+                <td class="pricelist__price">50</td>
+                <td class="pricelist__price">50</td>
+                <td class="pricelist__price">50</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Внутривенно</td>
+                <td class="pricelist__price">100</td>
+                <td class="pricelist__price">100</td>
+                <td class="pricelist__price">100</td>
+              </tr>
+              <tr>
+                <td class="pricelist__procedure">Внутривенно капельно</td>
+                <td class="pricelist__price">300</td>
+                <td class="pricelist__price">300</td>
+                <td class="pricelist__price">300</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrapper footer__content-box">
+        <a href="./index.html" class="logo logo_place_footer">
+          <img class="logo__img" src="./images/logo.webp" alt="Солнце." />
+          <h2 class="logo__text">Центр Здоровья</h2>
+        </a>
+        <ul class="footer__list">
+          <li>
+            <a
+              class="footer__link footer__link_type_email"
+              href="mailto:chorikova@mail.ru"
+              >chorikova@mail.ru</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer__link footer__link_type_tel"
+              href="tel:+79895060409"
+              >+7 989 506–04–09</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer__link footer__link_type_address"
+              href="./contacts.html#address-map"
+              >Ростовская область, г.&nbsp;Таганрог, ул.&nbsp;Социалистическая,
+              д.&nbsp;161
+            </a>
+          </li>
+        </ul>
+
+        <h3 class="footer__heading">Режим работы:</h3>
+        <div class="footer__schedule">
+          <span class="footer__text">Понедельник</span>
+          <span class="footer__text">8:00 — 17:00</span>
+          <span class="footer__text">Вторник</span>
+          <span class="footer__text">8:00 — 17:00</span>
+          <span class="footer__text">Среда</span>
+          <span class="footer__text">8:00 — 17:00</span>
+          <span class="footer__text">Четверг</span>
+          <span class="footer__text">8:00 — 17:00</span>
+          <span class="footer__text">Пятница</span>
+          <span class="footer__text">8:00 — 17:00</span>
+        </div>
+
+        <h3 class="footer__heading">Соцсети:</h3>
+        <ul class="footer__list">
+          <li>
+            <a
+              class="footer__link footer__link_type_telegram"
+              href="https://t.me/centrzdorovjataganrog"
+              target="_blank"
+            >
+              Telegram
+            </a>
+          </li>
+          <li>
+            <a
+              class="footer__link footer__link_type_vk"
+              href="https://vk.com/mrczdrovie"
+              target="_blank"
+            >
+              ВКонтакте
+            </a>
+          </li>
+        </ul>
+
+        <h3 class="footer__heading">Наш партнёр:</h3>
+        <a
+          class="mercy-for-children footer__link"
+          href="https://mirdetiam.ru"
+          target="_blank"
+        >
+          <span class="mercy-for-children__name">Милосердие детям</span>
+          <span class="mercy-for-children__caption"
+            >благотворительный фонд</span
+          >
+        </a>
       </div>
-
-      <h3 class="footer__heading">Соцсети:</h3>
-      <ul class="footer__list">
-        <li>
-          <a class="footer__link footer__link_type_telegram" href="https://t.me/centrzdorovjataganrog" target="_blank">
-            Telegram
-          </a>
-        </li>
-        <li>
-          <a class="footer__link footer__link_type_vk" href="https://vk.com/mrczdrovie" target="_blank">
-            ВКонтакте
-          </a>
-        </li>
-      </ul>
-
-    </div>
-    <p class="footer__text wrapper">
-      2015 — <span class="footer__actual-year"></span>, ООО &laquo;СП&nbsp;&laquo;Центр Здоровья&raquo;
-      Противопоказания: острый
-      период всех заболеваний, заболевания крови, онкологические заболевания, инфекционные заболевания.
-    </p>
-  </footer>
-</body>
-
+      <p class="footer__text wrapper">
+        2015 — <span class="footer__actual-year"></span>, ООО
+        &laquo;СП&nbsp;&laquo;Центр Здоровья&raquo; Противопоказания: острый
+        период всех заболеваний, заболевания крови, онкологические заболевания,
+        инфекционные заболевания.
+      </p>
+    </footer>
+  </body>
 </html>

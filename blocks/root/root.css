@@ -49,20 +49,21 @@
 @import url(../footer/__schedule/footer__schedule.css);
 @import url(../footer/__text/footer__text.css);
 @import url(../footer/__text/_bold/footer__text_bold.css);
+@import url(../mercy-for-children/mercy-for-children.css);
 
 @import url(../headline/headline.css);
 
 :root {
-  --main-font-family: 'Montserrat', 'Arial', sans-serif;
+  --main-font-family: "Montserrat", "Arial", sans-serif;
   --accent-color: #e25915;
   --accent-hover-color: #d15314;
   --page-color: #fff;
   --dark-text-color: #544d4d;
   --menu-height: 75px;
-  scroll-behavior: smooth;  
+  scroll-behavior: smooth;
   scroll-padding: 65px;
-  --out-time: .35s;
-  --in-time: .1s;
+  --out-time: 0.35s;
+  --in-time: 0.1s;
 }
 
 *:focus-visible {
